@@ -1,3 +1,10 @@
+Choose a group that has the same letter as your on-site rotation group (https://www.epfl.ch/campus/security-safety/en/health/coronavirus-covid19/students/).
+Groups 1-9 correspond to the time slot 13:15~14:00.
+Groups 10-18 correspond to the time slot 14:15~15:00.
+
+In case the on-site rotation group is too unbalanced and all groups get filled, please contact nicolas.stucki@epfl.ch to open new groups.
+
+It is allowed but NOT recommended to join a group in another rotation as long as all the work is done remotely with your group (using Discord, Hangouts, Zoom, ...). In this case, you will NOT be able to come on campus to ask questions during the presidential session.
 
 * First [choose your group in Doodle](https://doodle.com/poll/v9qezugq35shg2pi)
 * Then, access your workspace using your EPFL email
