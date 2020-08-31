@@ -21,9 +21,9 @@ The grading of the course is divided between labs (25%) and a final exam (75%). 
 
 | Role        | People |
 | :---        | :--- |
-| Professors  | Martin Odersky, Viktor Kunčak |
-| TAs         | Adrien Ghosn, Dragana Milovancevic, Guillaume Martres, Nicolas Stucki, Olivier Blanvillain |
-| Student TAs | Arthur Vignon, Emilien Ordonneau, Lucas Giordano, Mohamed Dhraief |
+| Professors  | [Martin Odersky](https://people.epfl.ch/martin.odersky), [Viktor Kunčak](https://people.epfl.ch/viktor.kuncak) |
+| TAs         | [Adrien Ghosn](https://people.epfl.ch/adrien.ghosn), [Dragana Milovancevic](https://people.epfl.ch/dragana.milovancevic), [Guillaume Martres](https://people.epfl.ch/guillaume.martres), [Nicolas Stucki](https://people.epfl.ch/nicolas.stucki), [Olivier Blanvillain](https://people.epfl.ch/olivier.blanvillain) |
+| Student TAs | [Arthur Vignon](https://people.epfl.ch/arthur.vignon), [Emilien Ordonneau](https://people.epfl.ch/emilien.ordonneau), [Lucas Giordano](https://people.epfl.ch/lucas.giordano), [Mohamed Dhraief](https://people.epfl.ch/mohamed.dhraief) |
 
 ## Rooms
 
@@ -31,7 +31,7 @@ Lectures are prerecorded and published on this page.
 Exercise sessions take place on Wednesdays from 13:15 to 15:00 on [Discord](https://discord.gg/8ud6UpE).
 Lab sessions take place on Fridays from 10:15 to 12:00, also on [Discord](https://discord.gg/8ud6UpE).
 In the first 2 weeks of the semester, in-person office hours will be held on Wednesdays from 13:15 to 15:00 in CO 2, and on Fridays from 10:15 to 12:00 in ELA1.
-These office hours are there to help you setting up Git and Java your machines in case you get stuck while doing the *first-week tasks*.
+These office hours are there to help you setting up Git and Java our your machines and answer and other question you might have about the class.
 
 ## Lecture Schedule
 
