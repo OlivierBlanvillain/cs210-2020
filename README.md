@@ -15,7 +15,7 @@ We will use GitLab's issue tracker as a discussion forum. Feel free to [open an 
 
 ## Grading
 
-The grading of the course is divided between labs (25%) and a final exam (75%).
+The grading of the course is divided between labs (25%) and a final exam (75%). There will be no midterm exam this year.
 
 ## Staff
 
@@ -28,8 +28,8 @@ The grading of the course is divided between labs (25%) and a final exam (75%).
 ## Rooms
 
 Lectures are prerecorded and published on this page.
-Exercise sessions take place on Wednesdays from 13:15 to 15:00 on [Discord](https://discord.gg/6KtbSAh).
-Lab sessions take place on Fridays from 10:15 to 12:00, also on [Discord](https://discord.gg/6KtbSAh).
+Exercise sessions take place on Wednesdays from 13:15 to 15:00 on [Discord](https://discord.gg/8ud6UpE).
+Lab sessions take place on Fridays from 10:15 to 12:00, also on [Discord](https://discord.gg/8ud6UpE).
 In the first 2 weeks of the semester, in-person office hours will be held on Wednesdays from 13:15 to 15:00 in CO 2, and on Fridays from 10:15 to 12:00 in ELA1.
 These office hours are there to help you setting up Git and Java your machines in case you get stuck while doing the *first-week tasks*.
 
@@ -70,7 +70,7 @@ These office hours are there to help you setting up Git and Java your machines i
 
 ## Exercise Session Schedule
 
-| Title                | Handout Released | Live Session | Solution Release |
+| Title                | Handout Released | Discord Session | Solution Release |
 | :--                  | :--              | :--          | :--              |
 | Exercise Session 1   | -                | 25.09.2020   | 28.09.2020       |
 | Exercise Session 2   | 28.09.2020       | 02.10.2020   | 05.10.2020       |
