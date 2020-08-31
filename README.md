@@ -31,7 +31,7 @@ Lectures are prerecorded and published on this page.
 Exercise sessions take place on Wednesdays from 13:15 to 15:00 on [Discord](https://discord.gg/8ud6UpE).
 Lab sessions take place on Fridays from 10:15 to 12:00, also on [Discord](https://discord.gg/8ud6UpE).
 In the first 2 weeks of the semester, in-person office hours will be held on Wednesdays from 13:15 to 15:00 in CO 2, and on Fridays from 10:15 to 12:00 in ELA1.
-These office hours are there to help you setting up Git and Java our your machines and answer and other question you might have about the class.
+These office hours are there to help you setting up Git and Java our your machines and answer any other question you might have about the class. We will be happy to arrange further in-person or virtual (Discord, Zoom, etc.) office hours--just contact one of us with a list of all your available time slots.
 
 ## Lecture Schedule
 
