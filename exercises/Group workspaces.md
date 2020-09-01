@@ -6,7 +6,7 @@ In case the on-site rotation group is too unbalanced and all groups get filled, 
 
 It is allowed but NOT recommended to join a group in another rotation as long as all the work is done remotely with your group (using Discord, Hangouts, Zoom, ...). In this case, you will NOT be able to come on campus to ask questions during the presidential session.
 
-* **First** [choose your group in Doodle](https://doodle.com/poll/v9qezugq35shg2pi)
+* **First** [choose your group](https://docs.google.com/spreadsheets/d/1xMy83u1bl1yd4zuYt9jFp7pEYGurTSlfK8onmfOnVyA/edit#gid=0)
 * Then, access your workspace using your EPFL email
    * [Group A-1](https://drive.google.com/drive/folders/1lH9LggPXuKuN8q9hwI-A0rgYRdAkJzSu?usp=sharing)
    * [Group A-2](https://drive.google.com/drive/folders/1_zOY0qmNL9yfKEksbG_fH7vgyfR5sPAU?usp=sharing)
