@@ -107,14 +107,12 @@ Make sure to follow both the "Installation" and "Launching from the Command Line
 See [https://code.visualstudio.com/docs/setup/windows](https://code.visualstudio.com/docs/setup/windows).
 Make sure that the checkbox "Add to PATH (available after restart)" in the installer is checked.
 
-## Step 7: Verify your VSCode installation
+## Step 7: Installing Metals
 
-Run:
-```shell
-code
-```
-VSCode is correctly installed if this opens a window, you can then close this
-window. If the `code` command is not recognized, try restarting your computer.
+Metals is the VSCode Scala extension that enables compilation errors to be reported directly in the IDE.
+Install the Metals extension from the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=scalameta.metals).
+
+<a href="vscode:extension/scalameta.metals"><img src="https://img.shields.io/badge/metals-vscode-blue.png" alt="Install Metals extension"></a>
 
 ## Step 8: Generate a public/private SSH key pair
 
