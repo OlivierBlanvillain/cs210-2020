@@ -2,7 +2,7 @@ Choose a group that has the same letter as your on-site rotation group ([epfl-co
 
 In case the on-site rotation group is too unbalanced and all groups get filled, please contact nicolas.stucki@epfl.ch to open new groups.
 
-It is allowed but NOT recommended to join a group in another rotation as long as all the work is done remotely with your group (using Discord, Hangouts, Zoom, ...).
+It is allowed but not recommended to join a group in another rotation as long as all the work is done remotely with your group (using Discord, Hangouts, Zoom, ...).
 
 * For the exercise sessions: find the link to the workspace of your group in the form
   * If you work remotely you can just write down the solution directly in the workspace
