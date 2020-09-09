@@ -15,7 +15,7 @@ We will use GitLab's issue tracker as a discussion forum. Feel free to [open an 
 
 ## Grading
 
-The grading of the course is divided between labs (25%) and a final exam (75%). There will be no midterm exam this year.
+The grading of the course is divided between labs (25%), exercises (5%) and a final exam (70%). There will be no midterm exam this year.
 
 ## Staff
 
