@@ -40,8 +40,8 @@ These office hours are there to help you setting up Git and Java our your machin
 | Week | Date        | Topic                  |
 | :--  | :--         | :--                    |
 | 1    | 16.09.2020  | Intro class            |
-| 2    | 23.09.2020  | Recursion              |
-| 3    | 30.09.2020  | Function values        |
+| 2    | 23.09.2020  | Recursion / Function values |
+| 3    | 30.09.2020  | Classes                |
 | 4    | 07.10.2020  | Classes                |
 | 5    | 14.10.2020  | List                   |
 | 6    | 21.10.2020  | Collection             |
