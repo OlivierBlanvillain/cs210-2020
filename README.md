@@ -8,10 +8,12 @@ We will use GitLab's issue tracker as a discussion forum. Feel free to [open an 
 
 # First-week tasks
 
-1. [Register in a group](exercises/Group workspaces.md) for the exercise sessions
-2. Follow the instructions in the [Tools Setup](labs/tools-setup.md) page.
-3. Do the [example lab](labs/example-lab.md).
-4. Do the [first graded lab](labs/lab-1.md).
+## UNDER CONSTRUCTION, COME BACK LATER
+
+<!-- 1. [Register in a group](exercises/Group workspaces.md) for the exercise sessions -->
+<!-- 2. Follow the instructions in the [Tools Setup](labs/tools-setup.md) page. -->
+<!-- 3. Do the [example lab](labs/example-lab.md). -->
+<!-- 4. Do the [first graded lab](labs/lab-1.md). -->
 
 ## Grading
 
