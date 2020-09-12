@@ -1,0 +1,49 @@
+# This CI config file is not used in this repository but instead referenced
+# from each student project (https://gitlab.epfl.ch/help/ci/pipelines/settings#custom-ci-configuration-path)
+# and used to grade them.
+
+stages:
+  - build
+  - grade
+
+compile:
+  stage: build
+  image: lampepfl/dotty:2020-09-08
+  tags:
+    - cs210
+  except:
+    - tags
+  # Caching is only allowed for directories inside the current project, so we make sure
+  # all our caches are inside CI_PROJECT_DIR:
+  script:
+    - XDG_CACHE_HOME=${CI_PROJECT_DIR}/.cache sbt -Dsbt.boot.directory="${CI_PROJECT_DIR}/.sbt-boot" -Dsbt.ivy.home="${CI_PROJECT_DIR}/.ivy2" packageSubmission
+  cache:
+    key: cs210-2020
+    paths:
+      - .cache/
+      - .sbt-boot/
+      - .ivy2/cache/
+  # Output of this job that needs to be stored to be reused in the grade job below
+  artifacts:
+    expire_in: 1 day
+    paths:
+      - submission.jar
+
+grade:
+  stage: grade
+  except:
+    - tags
+  tags:
+    - cs210
+  image:
+    # If we push a new image with the same name, we may have to clear the image
+    # caches on the runner machines
+    name: lampepfl/moocs:cs210-2020-${CI_COMMIT_BRANCH}
+    entrypoint: [""]
+  allow_failure: true
+  before_script:
+    - mkdir -p /shared/submission/
+    - cp submission.jar /shared/submission/submission.jar
+  script:
+    - cd /grader
+    - /grader/grade | /grader/feedback-printer
