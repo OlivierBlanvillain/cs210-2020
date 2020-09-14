@@ -88,6 +88,6 @@ These office hours are there to help you setting up Git and Java our your machin
 
 ## Exam Schedule
 
-The final exam date is to be determined. The final exam will cover all material seen during the semester.
+The final exam date will be during the exam session in January 2021. The final exam will cover all material seen during the semester.
 
 Information about exam organization will be communicated by email a few days before the exam.
