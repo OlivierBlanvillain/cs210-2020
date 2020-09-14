@@ -72,19 +72,18 @@ These office hours are there to help you setting up Git and Java our your machin
 
 ## Exercise Session Schedule
 
-| Title                | Handout Released | Discord Session | Solution Release |
-| :--                  | :--              | :--          | :--              |
-| Exercise Session 1   | -                | 25.09.2020   | 28.09.2020       |
-| Exercise Session 2   | 28.09.2020       | 02.10.2020   | 05.10.2020       |
-| Exercise Session 3   | 05.10.2020       | 09.10.2020   | 12.10.2020       |
-| Exercise Session 4   | 12.10.2020       | 16.10.2020   | 20.10.2020       |
-| Exercise Session 5   | 20.10.2020       | 23.10.2020   | 26.10.2020       |
-| Exercise Session 6   | 26.10.2020       | 30.10.2020   | 02.11.2020       |
-| Exercise Session 7   | 02.11.2020       | 13.11.2020   | 16.11.2020       |
-| Exercise Session 8   | 18.11.2020       | 20.11.2020   | 23.11.2020       |
-| Exercise Session 9   | 25.11.2020       | 27.11.2020   | 30.11.2020       |
-| Exercise Session 10  | 02.12.2020       | 04.12.2020   | 07.12.2020       |
-| Exercise Session 11  | 09.12.2020       | 11.12.2020   | 14.12.2020       |
+| Title                | Discord Session (Handout Released) | Solution Release |
+| :--                  | :--              | :--              |
+| Exercise Session 1   | 28.09.2020       | 05.10.2020       |
+| Exercise Session 2   | 05.10.2020       | 12.10.2020       |
+| Exercise Session 3   | 12.10.2020       | 20.10.2020       |
+| Exercise Session 4   | 20.10.2020       | 26.10.2020       |
+| Exercise Session 5   | 26.10.2020       | 02.11.2020       |
+| Exercise Session 6   | 02.11.2020       | 16.11.2020       |
+| Exercise Session 7   | 18.11.2020       | 23.11.2020       |
+| Exercise Session 8   | 25.11.2020       | 30.11.2020       |
+| Exercise Session 9  | 02.12.2020       | 07.12.2020       |
+| Exercise Session 10  | 09.12.2020       | 14.12.2020       |
 
 ## Exam Schedule
 
