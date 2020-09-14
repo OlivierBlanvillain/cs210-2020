@@ -8,6 +8,9 @@ We will use GitLab's issue tracker as a discussion forum. Feel free to [open an 
 
 # First-week tasks
 
+1. Log into gitlab: https://gitlab.epfl.ch/users/sign_in
+2. **More instructions to follow, come back later!**
+
 ## UNDER CONSTRUCTION, COME BACK LATER
 
 <!-- 1. [Register in a group](exercises/Group workspaces.md) for the exercise sessions -->
