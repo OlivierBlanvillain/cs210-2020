@@ -132,7 +132,15 @@ Go to Definition`. Once there we see:
 
 Now we know why the test failed: `sum` calls `???`, which is a method defined in
 the Scala standard library that simply crashes your program: whenever you see it
-in a lab it means that this is something you need to replace by your own implementation.
+in a lab it means that this is something you need to replace by your own
+implementation.
+
+Once you've implemented this method, you can run `test` from sbt again to see if
+the test passed, if you want to run a single test instead of all tests you can
+use `testOnly` instead and specify part of the name of the test:
+```scala
+testOnly -- "--tests=*max of a few*"
+```
 
 You now know enough to be able to work with the IDE, here are some additional tips:
 
