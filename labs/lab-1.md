@@ -1,5 +1,7 @@
 # Lab 1: Recursion
 
+**Before starting this lab, please complete the other [first week tasks](https://gitlab.epfl.ch/lamp/cs210#first-week-tasks)!**
+
 # Setup
 
 You can use the following commands to make a fresh clone of your repository:
