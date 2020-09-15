@@ -13,7 +13,7 @@ sure to replace `GASPAR` with your EPFL username (the one with letters, not the
 one with number) in the following command).
 
 ```shell
-git clone -b example git@gitlab.epfl.ch:lamp/student-repositories-f20/cs210-GASPAR.git cs210-example
+git clone -b example git@gitlab.epfl.ch:lamp/students-repositories-f20/cs210-GASPAR.git cs210-example
 ```
 
 **If this command fails, make sure you've [logged into
