@@ -42,22 +42,22 @@ These office hours are there to help you setting up Git and Java our your machin
 
 <!-- date -d "30/09/2019 364 days" +"%d.%m.%Y" -->
 
-| Week | Date        | Topic                  |
-| :--  | :--         | :--                    |
-| 1    | 16.09.2020  | Intro class            |
-| 2    | 23.09.2020  | Recursion / Function values |
-| 3    | 30.09.2020  | Classes                |
-| 4    | 07.10.2020  | Classes                |
-| 5    | 14.10.2020  | List                   |
-| 6    | 21.10.2020  | Collection             |
-| 7    | 04.11.2020  | Monads                 |
-| 8    | 28.10.2020  | Lazy evaluation        |
-| 9    | 11.11.2020  | Type-directed computation |
-| 10   | 18.11.2020  | State                  |
-| 11   | 25.11.2020  | Functional Reactive Programming and Constraint Propagation / Symbolic computation |
-| 12   | 02.12.2020  | Interpreter            |
-| 13   | 09.12.2020  | Interpreter            |
-| 14   | 16.12.2020  | Review for the exam    |
+| Week | Date        | Topic                       | Video              |
+| :--  | :--         | :--                         | :--                |
+| 1    | 16.09.2020  | Intro class                 |                    |
+| 2    | 23.09.2020  | Recursion / Function values |                    |
+| 3    | 30.09.2020  | Classes                     |                    |
+| 4    | 07.10.2020  | Classes                     |                    |
+| 5    | 14.10.2020  | List                        |                    |
+| 6    | 21.10.2020  | Collection                  |                    |
+| 7    | 04.11.2020  | Monads                      |                    |
+| 8    | 28.10.2020  | Lazy evaluation             |                    |
+| 9    | 11.11.2020  | Type-directed computation   |                    |
+| 10   | 18.11.2020  | State                       |                    |
+| 11   | 25.11.2020  | Functional Reactive Programming and Constraint Propagation / Symbolic computation |                    |
+| 12   | 02.12.2020  | Interpreter                 |                    |
+| 13   | 09.12.2020  | Interpreter                 |                    |
+| 14   | 16.12.2020  | Review for the exam         |                    |
 
 ## Lab Schedule
 
