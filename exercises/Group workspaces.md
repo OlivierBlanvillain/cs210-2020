@@ -6,7 +6,7 @@ It is allowed but not recommended to join a group in another rotation as long as
 
 * For the exercise sessions: find the link to the workspace of your group in the form
   * If you work remotely you can just write down the solution directly in the workspace
-  * If you solved it on paper or on a blackboard/whiteboard you can take a picture with your phone an paste it in the workspace
+  * If you solved it on paper or on a blackboard/whiteboard you can take a picture with your phone and paste it in the workspace
 * This form is also used to initialize your programming assignments using your gaspar
 * You should not change groups during the semester as we wont be tracking changes to the form
 
