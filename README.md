@@ -9,14 +9,9 @@ We will use GitLab's issue tracker as a discussion forum. Feel free to [open an 
 # First-week tasks
 
 1. Log into gitlab: https://gitlab.epfl.ch/users/sign_in
-2. **More instructions to follow, come back later!**
-
-## UNDER CONSTRUCTION, COME BACK LATER
-
-<!-- 1. [Register in a group](exercises/Group workspaces.md) for the exercise sessions -->
-<!-- 2. Follow the instructions in the [Tools Setup](labs/tools-setup.md) page. -->
-<!-- 3. Do the [example lab](labs/example-lab.md). -->
-<!-- 4. Do the [first graded lab](labs/lab-1.md). -->
+2. [Register in a group](exercises/Group workspaces.md) for the exercise sessions
+3. Do the [example lab](labs/example-lab.md).
+4. Do the [first graded lab](labs/lab-1.md).
 
 ## Grading
 
@@ -63,7 +58,7 @@ These office hours are there to help you setting up Git and Java our your machin
 
 | Title                | Start Date | Due Date ([AoE](https://en.wikipedia.org/wiki/Anywhere_on_Earth)) |
 | :--                  | :--        | :--                |
-| Recursion            | 16.09.2020 | 27.09.2020         |
+| [Recursion](labs/lab-1.md)            | 16.09.2020 | 27.09.2020         |
 | Functional Sets      | 23.09.2020 | 01.10.2020         |
 | Object-Oriented Sets | 30.09.2020 | 08.10.2020         |
 | Huffman Coding       | 07.10.2020 | 22.10.2020         |
