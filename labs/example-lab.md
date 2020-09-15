@@ -18,7 +18,7 @@ git clone -b example git@gitlab.epfl.ch:lamp/student-repositories-f20/cs210-GASP
 
 **If this command fail, make sure you've [logged into
 gitlab](https://gitlab.epfl.ch/users/sign_in) and [registered in a
-group](/exercises/Group workspaces.md), then wait a few minutes.**
+group](https://gitlab.epfl.ch/lamp/cs210/-/blob/master/exercises/Group%20workspaces.md), then wait a few minutes.**
 
 ```shell
 cd cs210-example
