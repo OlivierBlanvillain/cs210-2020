@@ -7,7 +7,7 @@
 You can use the following commands to make a fresh clone of your repository:
 
 ```shell
-git clone -b recfun git@gitlab.epfl.ch:lamp/students-repositories-f20/cs210-GASPAR.git cs210-recfun
+git clone -b recfun git@gitlab.epfl.ch:lamp/students-repositories-fall-2020/cs210-GASPAR.git cs210-recfun
 cd cs210-recfun
 ```
 
