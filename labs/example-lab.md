@@ -16,7 +16,7 @@ one with number) in the following command).
 git clone -b example git@gitlab.epfl.ch:lamp/student-repositories-f20/cs210-GASPAR.git cs210-example
 ```
 
-**If this command fail, make sure you've [logged into
+**If this command fails, make sure you've [logged into
 gitlab](https://gitlab.epfl.ch/users/sign_in) and [registered in a
 group](https://gitlab.epfl.ch/lamp/cs210/-/blob/master/exercises/Group%20workspaces.md), then wait a few minutes.**
 
