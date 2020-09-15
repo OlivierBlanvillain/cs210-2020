@@ -13,6 +13,7 @@ compile:
     - cs210
   except:
     - tags
+    - master
   # Caching is only allowed for directories inside the current project, so we make sure
   # all our caches are inside CI_PROJECT_DIR:
   script:
@@ -33,6 +34,7 @@ grade:
   stage: grade
   except:
     - tags
+    - master
   tags:
     - cs210
   image:
