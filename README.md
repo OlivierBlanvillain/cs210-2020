@@ -44,7 +44,7 @@ These office hours are there to help you setting up Git and Java our your machin
 
 | Week | Date        | Topic                       | Video              |
 | :--  | :--         | :--                         | :--                |
-| 1    | 16.09.2020  | Intro class                 |                    |
+| 1    | 16.09.2020  | Intro class                 | [Part 1][Video 1.1.1], [Part 2][Video 1.1.2], [Part 3][Video 1.1.3], [Part 4][Video 1.1.4], [Part 5][Video 1.1.5], [Part 6][Video 1.1.6], [Part 7][Video 1.1.7]                   |
 | 2    | 23.09.2020  | Recursion / Function values |                    |
 | 3    | 30.09.2020  | Classes                     |                    |
 | 4    | 07.10.2020  | Classes                     |                    |
@@ -95,3 +95,12 @@ These office hours are there to help you setting up Git and Java our your machin
 The final exam date will be during the exam session in January 2021. The final exam will cover all material seen during the semester.
 
 Information about exam organization will be communicated by email a few days before the exam.
+
+
+[Video 1.1.1]: https://drive.google.com/file/d/1Gtz9IDWZ7aObqtsgFk7QcMkci4bKD74v/view?usp=sharing
+[Video 1.1.2]: https://drive.google.com/file/d/1nXKcpOkXTuRtuSJcf6_E1_MSbkaaPPpm/view?usp=sharing
+[Video 1.1.3]: https://drive.google.com/file/d/1ePJ_h7XwEcK899OWoer6Vpi4k2VQWUv4/view?usp=sharing
+[Video 1.1.4]: https://drive.google.com/file/d/1Ud0eI2GvTMlfNBLo60ADlv6KrZygD7UX/view?usp=sharing
+[Video 1.1.5]: https://drive.google.com/file/d/1tEU_dGRRVEHJH3magWhDSKEsW4ADOBw1/view?usp=sharing
+[Video 1.1.6]: https://drive.google.com/file/d/1ARKcSilynOTBssFEvQ-MFc7RgKtVfqha/view?usp=sharing
+[Video 1.1.7]: https://drive.google.com/file/d/1jbHxp5go47XBxolfGQjD7zs9fb-1sKky/view?usp=sharing
