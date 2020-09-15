@@ -7,11 +7,13 @@ typically people have more trouble getting everything working correctly on
 Windows and it's harder for us to help them since we don't use Windows
 ourselves.
 
-# Step 1: Create an account on gitlab.epfl.ch
+# Step 1: Create an account on gitlab.epfl.ch, register in a group
 
-Go to [gitlab.epfl.ch](https://gitlab.epfl.ch/) and log in with your EPFL account, do this as soon as
-possible because it will take some time between the account creation and the
-assignment submission system working for your account.
+If you haven't already [log into gitlab](https://gitlab.epfl.ch/users/sign_in)
+and [register in a
+group](https://gitlab.epfl.ch/lamp/cs210/-/blob/master/exercises/Group%20workspaces.md),
+do this as soon as possible because it will take some time between the account
+creation and the lab submission system working for your account.
 
 ## Step 2: Installing the Java Development Kit (JDK) and sbt via coursier
 
@@ -123,7 +125,7 @@ the terminal, if that doesn't work
 
 ## Step 8: Generate a public/private SSH key pair
 
-To submit assignments, you will need an SSH key. If you don't already have one, here's how to generate it:
+To submit labs, you will need an SSH key. If you don't already have one, here's how to generate it:
 
 ### Step 8.1: Installing OpenSSH
 

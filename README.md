@@ -10,6 +10,7 @@ We will use GitLab's issue tracker as a discussion forum. Feel free to [open an 
 
 1. Log into gitlab: https://gitlab.epfl.ch/users/sign_in
 2. [Register in a group](exercises/Group workspaces.md) for the exercise sessions
+3. Follow the [Tools Setup](labs/tools-setup.md) page.
 3. Do the [example lab](labs/example-lab.md).
 4. Do the [first graded lab](labs/lab-1.md).
 
