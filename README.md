@@ -4,15 +4,16 @@ This repository will be used as the website for Functional Programming CS-210. I
 - [exercises](exercises) contains markdown documents for the exercise sessions and solutions.
 - [slides](slides) contains the slides presented in class.
 
-We will use GitLab's issue tracker as a discussion forum. Feel free to [open an issue](https://gitlab.epfl.ch/lamp/cs210/issues/new) if you have any comments or questions.
+We will use GitLab's issue tracker as a discussion forum. Feel free to [open an issue](https://gitlab.epfl.ch/lamp/cs210/issues/new) if you have any comments or questions
 
 # First-week tasks
 
-1. Log into gitlab: https://gitlab.epfl.ch/users/sign_in
-2. [Register in a group](exercises/Group workspaces.md) for the exercise sessions
-3. Follow the [Tools Setup](labs/tools-setup.md) page.
-3. Do the [example lab](labs/example-lab.md).
-4. Do the [first graded lab](labs/lab-1.md).
+1. [Join the Discord](https://discord.gg/8ud6UpE)
+2. Log into gitlab: https://gitlab.epfl.ch/users/sign_in
+3. [Register in a group](exercises/Group workspaces.md) for the exercise sessions
+4. Follow the [Tools Setup](labs/tools-setup.md) page.
+5. Do the [example lab](labs/example-lab.md).
+6. Do the [first graded lab](labs/lab-1.md).
 
 ## Grading
 
