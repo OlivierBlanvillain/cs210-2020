@@ -10,12 +10,12 @@ cd cs210-recfun
 ```
 
 You can always refer to:
-  * [the example guide](https://gitlab.epfl.ch/lamp/cs210-2020/blob/master/labs/example-lab.md) on the development workflow.
-  * [this guide](https://gitlab.epfl.ch/lamp/cs210-2020/blob/master/labs/grading-and-submission.md) for details on the submission system.
+  * [the example guide](https://gitlab.epfl.ch/lamp/cs210/blob/master/labs/example-lab.md) on the development workflow.
+  * [this guide](https://gitlab.epfl.ch/lamp/cs210/blob/master/labs/grading-and-submission.md) for details on the submission system.
     **Make sure to submit your assignment before the deadline written in [README.md](/README.md)**
-  * [The documentation of the Scala standard library](https://www.scala-lang.org/files/archive/api/2.13.1)
+  * [The documentation of the Scala standard library](https://www.scala-lang.org/files/archive/api/2.13.3)
   * [The documentation of the Java standard
-    library](https://docs.oracle.com/en/java/javase/11/docs/api/index.html)
+    library](https://docs.oracle.com/en/java/javase/15/docs/api/index.html)
 
 
 # Be functional!
@@ -86,7 +86,7 @@ exercise:
 - `chars.head: Char` returns the first element of the list
 - `chars.tail: List[Char]` returns the list without the first element
 
-You can find more information on these methods in the [documentation of List](https://www.scala-lang.org/files/archive/api/2.13.1/scala/collection/immutable/List.html)
+You can find more information on these methods in the [documentation of List](https://www.scala-lang.org/files/archive/api/2.13.3/scala/collection/immutable/List.html)
 
 __Hint__: you can define an inner function if you need to pass extra
 parameters to your function.
