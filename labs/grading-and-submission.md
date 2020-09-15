@@ -14,10 +14,8 @@ Each lab is shipped with two sets of tests:
     content, to encourage you to write your own tests. You can run them from
     `sbt` using the following command:
     ```shell
-    runGradingTests
+    grading:test
     ```
-    **[Note: this command is currently broken on Windows, click here for the
-    fix](https://gitlab.epfl.ch/lamp/cs210-2020/issues/9#note_45529)**
 
     Your grade is determined by the number of these tests that pass, see the
     next section to see how to actually get a grade.
@@ -27,8 +25,8 @@ re-run it when you save a file)
 
 ## Committing and pushing your code
 
-**You need to push your code to gitlab to receive a grade. If you forget, your
-grade will be zero.**
+**You need to push your code to gitlab before the deadline for the lab to
+receive a grade. If you forget, your grade will be zero.**
 
 If you've read the first few chapters of [Git
 book](https://git-scm.com/book/en/v2) as recommended, you must already be
@@ -80,7 +78,7 @@ example [VSCode has built-in git
 support](https://code.visualstudio.com/docs/editor/versioncontrol#_git-support).
 
 Once you've pushed your code, you can see the result online by going to
-`gitlab.epfl.ch/lamp/student-repositories-f20/cs210-GASPAR/pipelines` where
+`gitlab.epfl.ch/lamp/students-repositories-fall-2020/cs210-GASPAR/pipelines` where
 `GASPAR` is your username (you can also access this page from the main page of
 your repository by clicking on the rocket icon on the left side of the gitlab
 interface, then clicking on "Pipelines").
@@ -103,18 +101,3 @@ lab is`
 
 **If you push to gitlab multiple times, your final grade will be based on the
 last commit you pushed before the deadline.**
-
-## Troubleshooting
-
-### Wrong remote address
-
-```
-Cloning into 'cs206-example'...
-GitLab: The project you were looking for could not be found.
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-```
-
-If you get the above message, you ever used the wrong clone URL or you recently created your account on gitlab.epfl.ch, please wait 15 minutes and try again.
