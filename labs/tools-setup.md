@@ -22,7 +22,11 @@ Java as well as the sbt build tool:
 
 ```shell
 curl -fLo cs https://git.io/coursier-cli-linux
+```
+```shell
 chmod +x cs
+```
+```shell
 ./cs setup -y --jvm 8 --apps cs,sbt
 ```
 
@@ -35,13 +39,21 @@ First, install the Homebrew package manager:
 Use Homebrew to install coursier:
 ```scala
 brew install coursier/formulas/coursier
+```
+```shell
 cs setup -y --jvm 8 --apps sbt
 ```
 
 ### On Windows
 
+Download and install the [Visual C++ 2010 Redistributable Package](https://www.microsoft.com/en-us/download/details.aspx?id=14632).
+
+Open `cmd.exe` (and not powershell)
+
 ```shell
 bitsadmin /transfer cs-cli https://git.io/coursier-cli-windows-exe "%cd%\cs.exe"
+```
+```shell
 .\cs setup -y --jvm 8 --apps cs,sbt
 ```
 
@@ -61,6 +73,7 @@ sudo apt update && sudo apt install git
 
 ```shell
 sudo dnf install git
+```
 
 ### On macOS
 
@@ -71,7 +84,7 @@ brew install git
 ### On Windows
 
 Download and install git from [https://git-scm.com/downloads](https://git-scm.com/downloads).
-Once git is installed, please run:
+Once git is installed, open a new terminal and run:
 
 ```shell
 git config --global core.autocrlf false
@@ -96,14 +109,17 @@ Make sure to follow both the "Installation" and "Launching from the Command Line
 
 See [https://code.visualstudio.com/docs/setup/windows](https://code.visualstudio.com/docs/setup/windows).
 Make sure that the checkbox "Add to PATH (available after restart)" in the
-installer is checked, and reboot after the installation is completed.
+installer is checked.
 
 ## Step 7: Installing the Scala support for Code
 
-Open a terminal and run:
+Open a new terminal and run:
 ```scala
 code --install-extension lampepfl.dotty-syntax
 ```
+
+If you're on Windows and the command is not found, try closing and restarting
+the terminal, if that doesn't work
 
 ## Step 8: Generate a public/private SSH key pair
 
@@ -118,6 +134,7 @@ To submit assignments, you will need an SSH key. If you don't already have one, 
 ```shell
 sudo apt install openssh-client
 ```
+
 #### On Fedora
 
 ```shell
@@ -135,6 +152,8 @@ Follow the instructions under "Enable OpenSSH Client in Windows 10" on
 reboot afterwards.
 
 ### Step 8.2: Generating the key pair
+
+Open a new terminal and run:
 
 ```shell
 ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
