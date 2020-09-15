@@ -4,7 +4,7 @@ This repository will be used as the website for Functional Programming CS-210. I
 - [exercises](exercises) contains markdown documents for the exercise sessions and solutions.
 - [slides](slides) contains the slides presented in class.
 
-We will use GitLab's issue tracker as a discussion forum. Feel free to [open an issue](https://gitlab.epfl.ch/lamp/cs210-2020/issues/new) if you have any comments or questions.
+We will use GitLab's issue tracker as a discussion forum. Feel free to [open an issue](https://gitlab.epfl.ch/lamp/cs210/issues/new) if you have any comments or questions.
 
 # First-week tasks
 
