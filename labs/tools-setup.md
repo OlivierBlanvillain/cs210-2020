@@ -1,86 +1,76 @@
 # Tools Setup
 
+## Note
+
+We recommend using Linux or macOS for this course, we also support Windows but
+typically people have more trouble getting everything working correctly on
+Windows and it's harder for us to help them since we don't use Windows
+ourselves.
+
 # Step 1: Create an account on gitlab.epfl.ch
 
 Go to [gitlab.epfl.ch](https://gitlab.epfl.ch/) and log in with your EPFL account, do this as soon as
 possible because it will take some time between the account creation and the
 assignment submission system working for your account.
 
-## Step 2: Installing the Java Development Kit (JDK)
+## Step 2: Installing the Java Development Kit (JDK) and sbt via coursier
+
+We will use coursier to install the correct version of
+Java as well as the sbt build tool:
 
 ### On Linux
-#### On Ubuntu and Debian
 
 ```shell
-sudo apt-get update && sudo apt-get install openjdk-8-jdk
-sudo update-java-alternatives --set /usr/lib/jvm/java-1.8.0-openjdk-amd64
-```
-
-#### On Fedora
-```shell
-sudo dnf install java-1.8.0-openjdk-devel
+curl -fLo cs https://git.io/coursier-cli-linux
+chmod +x cs
+./cs setup -y --jvm 8 --apps cs,sbt
 ```
 
 ### On macOS
 
-First, install Homebrew:
+First, install the Homebrew package manager:
 ```shell
-/usr/bin/ruby -e "$(curl -kfsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
-
-Install OpenJDK 8:
-```shell
-brew tap AdoptOpenJDK/openjdk
-brew cask install adoptopenjdk8
-```
-
-Set it as the default Java version:
-```shell
-echo 'export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"' >> ~/.bash_profile
-echo 'export PATH="$JAVA_HOME/bin:$PATH"' >> ~/.bash_profile
-```
-
-At this point, make sure to close the terminal and open a new one.
-
-### On Windows
-
-[Download and run the OpenJDK 8 installer.](https://adoptopenjdk.net)
-
-## Step 3: Verify your JDK installation
-
-In a terminal, run:
-```shell
-java -version
-```
-The version number displayed on the first line should start with `1.8`. If this is not the case, then the wrong version of Java is on your `$PATH`.
-See [https://www.java.com/en/download/help/path.xml](https://www.java.com/en/download/help/path.xml) for information on how to change this.
-
-
-## Step 4: Installing sbt
-
-`sbt` is the build tool we use to compile and run Scala programs.
-
-### On Linux
-
-See [https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Linux.html](https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Linux.html).
-
-### On macOS
-
-```terminal
-brew install sbt@1
+Use Homebrew to install coursier:
+```scala
+brew install coursier/formulas/coursier
+cs setup -y --jvm 8 --apps sbt
 ```
 
 ### On Windows
 
-Download and run [https://piccolo.link/sbt-1.2.8.msi](https://piccolo.link/sbt-1.2.8.msi)
+```shell
+bitsadmin /transfer cs-cli https://git.io/coursier-cli-windows-exe "%cd%\cs.exe"
+.\cs setup -y --jvm 8 --apps cs,sbt
+```
 
 ## Step 5: Installing git
 
 git is a version control system.
 
-See [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+### On Linux
 
+#### On Ubuntu and Debian
 
+```shell
+sudo apt update && sudo apt install git
+```
+
+### On Fedora
+
+```shell
+sudo dnf install git
+
+### On macOS
+
+```shell
+brew install git
+```
+
+### On Windows
+
+Download and install git from [https://git-scm.com/downloads](https://git-scm.com/downloads).
 Once git is installed, please run:
 
 ```shell
@@ -89,9 +79,9 @@ git config --global core.autocrlf false
 
 If this command worked it will not print anything.
 
-## Step 6: Installing VSCode
+## Step 6: Installing Code
 
-VSCode is the IDE we strongly recommend using for this class (you are free to use any editor you want, but we won't don't have the resources to help you configure it for Scala).
+Visual Studio Code is the IDE we strongly recommend using for this class (you are free to use any editor you want, but we won't don't have the resources to help you configure it for Scala).
 
 ### On Linux
 
@@ -105,25 +95,33 @@ Make sure to follow both the "Installation" and "Launching from the Command Line
 ### On Windows
 
 See [https://code.visualstudio.com/docs/setup/windows](https://code.visualstudio.com/docs/setup/windows).
-Make sure that the checkbox "Add to PATH (available after restart)" in the installer is checked.
+Make sure that the checkbox "Add to PATH (available after restart)" in the
+installer is checked, and reboot after the installation is completed.
 
-## Step 7: Installing Metals
+## Step 7: Installing the Scala support for Code
 
-Metals is the VSCode Scala extension that enables compilation errors to be reported directly in the IDE.
-Install the Metals extension from the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=scalameta.metals).
-
-<a href="vscode:extension/scalameta.metals"><img src="https://img.shields.io/badge/metals-vscode-blue.png" alt="Install Metals extension"></a>
+Open a terminal and run:
+```scala
+code --install-extension lampepfl.dotty-syntax
+```
 
 ## Step 8: Generate a public/private SSH key pair
 
 To submit assignments, you will need an SSH key. If you don't already have one, here's how to generate it:
 
-### Installing OpenSSH
+### Step 8.1: Installing OpenSSH
 
-#### Ubuntu and Debian
+### On Linux
+
+#### On Ubuntu and Debian
 
 ```shell
-sudo apt-get update && sudo apt-get install openssh-client
+sudo apt install openssh-client
+```
+#### On Fedora
+
+```shell
+sudo dnf install openssh
 ```
 
 #### macOS
@@ -132,15 +130,17 @@ Nothing to do, OpenSSH is pre-installed
 
 #### Windows
 
-The simplest solution is to have an up-to-date Windows 10 and follow [https://www.howtogeek.com/336775/how-to-enable-and-use-windows-10s-built-in-ssh-commands/](https://www.howtogeek.com/336775/how-to-enable-and-use-windows-10s-built-in-ssh-commands/).
+Follow the instructions under "Enable OpenSSH Client in Windows 10" on
+[https://winaero.com/blog/enable-openssh-client-windows-10/](https://winaero.com/blog/enable-openssh-client-windows-10/),
+reboot afterwards.
 
-### Generating the key pair
+### Step 8.2: Generating the key pair
 
 ```shell
 ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
 ```
 
- The command will then ask for a location, which you can leave as the default. It will then also ask for a passphrase to encrypt your private key, which you may leave empty. If you don't, make sure to remember your passphrase!
+The command will then ask for a location, which you can leave as the default. It will then also ask for a passphrase to encrypt your private key, which you may leave empty. If you don't, make sure to remember your passphrase!
 
 ### Adding your public key on Gitlab
 
@@ -149,6 +149,6 @@ To be able to push your code, you'll need to add the public part of your key on 
 - Go to [gitlab.epfl.ch/profile/keys](https://gitlab.epfl.ch/profile/keys) and copy-paste the content of the `id_rsa.pub` file created by the `ssh-keygen` command you just ran (when the command was ran it printed the location where this file was saved).
 - Press `Add key`
 
-## Step 9: Follow the example assignment
+## Step 9: Follow the example lab
 
-The description of the example assignment (in your personnal gitlab repository) contains critical information to properly use the tools you just installed, don't miss it!
+Time to do the [example lab](example-lab.md)!
