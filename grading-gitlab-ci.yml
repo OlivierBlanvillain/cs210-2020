@@ -21,7 +21,7 @@ compile:
   # Careful: using a cache on a gitlab-runner means that a cache.zip file will
   # be downloaded to each container, this can quickly fill up disk space on the
   # runner space. To mitigate this we use a `docker-prune` systemd timer that
-  # runs `docker system prune --force --volume -a`.
+  # runs `docker system prune --force --volumes -a`.
   cache:
     key: cs210-2020
     paths:
