@@ -72,19 +72,19 @@ These office hours are there to help you setting up Git and Java our your machin
 
 ## Exercise Session Schedule
 
-| Title                | Handout Released | Discord Session | Due Date ([AoE](https://en.wikipedia.org/wiki/Anywhere_on_Earth)) | Solution Release |
-| :--                  | :--              | :--             | :--              | :--              |
-| Exercise Session 1   | -                | 23.09.2020      | 27.09.2020       | 28.09.2020       |
-| Exercise Session 2   | 28.09.2020       | 30.10.2020      | 04.10.2020       | 05.10.2020       |
-| Exercise Session 3   | 05.10.2020       | 07.10.2020      | 11.10.2020       | 12.10.2020       |
-| Exercise Session 4   | 12.10.2020       | 14.10.2020      | 19.10.2020       | 20.10.2020       |
-| Exercise Session 5   | 20.10.2020       | 21.10.2020      | 25.10.2020       | 26.10.2020       |
-| Exercise Session 6   | 26.10.2020       | 28.10.2020      | 01.11.2020       | 02.11.2020       |
-| Exercise Session 7   | 09.11.2020       | 11.11.2020      | 15.11.2020       | 16.11.2020       |
-| Exercise Session 8   | 16.11.2020       | 18.11.2020      | 22.11.2020       | 23.11.2020       |
-| Exercise Session 9   | 23.11.2020       | 25.11.2020      | 29.11.2020       | 30.11.2020       |
-| Exercise Session 10  | 30.11.2020       | 02.12.2020      | 06.12.2020       | 07.12.2020       |
-| Exercise Session 11  | 07.12.2020       | 09.12.2020      | 13.12.2020       | 14.12.2020       |
+| Title                                          | Handout Released | Discord Session | Due Date ([AoE](https://en.wikipedia.org/wiki/Anywhere_on_Earth)) | Solution Release |
+| :--                                            | :--              | :--             | :--              | :--              |
+| [Exercise Session 1](exercises/exercise-1.md)  | -                | 23.09.2020      | 27.09.2020       | 28.09.2020       |
+| Exercise Session 2                             | 28.09.2020       | 30.10.2020      | 04.10.2020       | 05.10.2020       |
+| Exercise Session 3                             | 05.10.2020       | 07.10.2020      | 11.10.2020       | 12.10.2020       |
+| Exercise Session 4                             | 12.10.2020       | 14.10.2020      | 19.10.2020       | 20.10.2020       |
+| Exercise Session 5                             | 20.10.2020       | 21.10.2020      | 25.10.2020       | 26.10.2020       |
+| Exercise Session 6                             | 26.10.2020       | 28.10.2020      | 01.11.2020       | 02.11.2020       |
+| Exercise Session 7                             | 09.11.2020       | 11.11.2020      | 15.11.2020       | 16.11.2020       |
+| Exercise Session 8                             | 16.11.2020       | 18.11.2020      | 22.11.2020       | 23.11.2020       |
+| Exercise Session 9                             | 23.11.2020       | 25.11.2020      | 29.11.2020       | 30.11.2020       |
+| Exercise Session 10                            | 30.11.2020       | 02.12.2020      | 06.12.2020       | 07.12.2020       |
+| Exercise Session 11                            | 07.12.2020       | 09.12.2020      | 13.12.2020       | 14.12.2020       |
 
 
 ## Exam Schedule
