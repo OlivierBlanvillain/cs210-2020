@@ -70,6 +70,9 @@ These office hours are there to help you setting up Git and Java our your machin
 | Codecs                            | 18.11.2020 | 20.11.2020 & 27.11.2020 | 03.12.2020 |
 | Interpreter                       | 02.12.2020 | 04.12.2020 & 11.12.2020 | 17.12.2020 |
 
+Labs are individual assignments where you get to write Scala programs using the concepts learned during lectures.
+Labs are submitted by pushing your code on GitLab, see details in the [grading and submission](labs/grading-and-submission.md) page.
+
 ## Exercise Session Schedule
 
 | Title                                          | Handout Released | Discord Session (13:15 to 15:00) | Due Date ([AoE](https://en.wikipedia.org/wiki/Anywhere_on_Earth)) | Solution Released |
@@ -87,6 +90,8 @@ These office hours are there to help you setting up Git and Java our your machin
 | Exercise Session 10                            | 30.11.2020       | 02.12.2020      | 06.12.2020       | 07.12.2020       |
 | Exercise Session 11                            | 07.12.2020       | 09.12.2020      | 13.12.2020       | 14.12.2020       |
 
+Exercises are pen and paper style questions that will prepare you for the final exam.
+Exercises should be done in groups and submitted via Google Drive, see details in the [Group workspaces](exercises/Group workspaces.md) page.
 
 ## Exam Schedule
 
