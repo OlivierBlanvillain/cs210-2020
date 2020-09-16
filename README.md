@@ -39,6 +39,12 @@ These office hours are there to help you setting up Git and Java our your machin
 
 <!-- date -d "30/09/2019 364 days" +"%d.%m.%Y" -->
 
+**Note**: In some lectures, worksheets are used to present code. To learn how to
+use worksheets yourselves, please follow the [Tools
+Setup](labs/tools-setup.md) and [example lab](labs/example-lab.md). To create a
+new empty project to experiment with worksheets, you can clone the following
+repository and run `code . ` inside as usual: [`git clone https://gitlab.epfl.ch/lamp/cs210-worksheets`](https://gitlab.epfl.ch/lamp/cs210-worksheets)
+
 | Week | Date        | Topic                       | Video              |
 | :--  | :--         | :--                         | :--                |
 | 1    | 16.09.2020  | Intro class                 | [Part 1][Video 1.1.1], [Part 2][Video 1.1.2], [Part 3][Video 1.1.3], [Part 4][Video 1.1.4], [Part 5][Video 1.1.5], [Part 6][Video 1.1.6], [Part 7][Video 1.1.7]  |
