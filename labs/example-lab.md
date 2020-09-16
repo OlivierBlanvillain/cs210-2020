@@ -124,7 +124,7 @@ This tells us that the crash happened when calling `sum`, we can hover with our 
 
 ![](images/hover.png)
 
-**If hovering doesn't show this see the [#troubleshooting](Troubleshooting) section.**
+**If hovering doesn't show this see the [Troubleshooting](#troubleshooting) section.**
 
 The hover is split into two parts: the first part is:
 ```scala
