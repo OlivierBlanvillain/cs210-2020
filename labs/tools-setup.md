@@ -48,6 +48,7 @@ brew install coursier/formulas/coursier
 ```shell
 [ -f ~/.bash_profile ] && sudo chmod 0666 ~/.bash_profile
 ```
+```shell
 cs setup -y --jvm 8 --apps sbt
 ```
 
