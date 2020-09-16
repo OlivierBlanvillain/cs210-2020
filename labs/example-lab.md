@@ -146,7 +146,7 @@ Once you've implemented this method, you can run `test` from sbt again to see if
 the test passed, if you want to run a single test instead of all tests you can
 use `testOnly` instead and specify part of the name of the test:
 ```scala
-testOnly -- "--tests=*max of a few*"
+testOnly -- "--tests=.*max of a few.*"
 ```
 
 You now know enough to be able to work with the IDE, here are some additional tips:
