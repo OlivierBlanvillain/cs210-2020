@@ -90,7 +90,10 @@ The grading pipeline contains two steps:
   * *grade*: the job results in a warning if you do not get the maximum grade
     (10.00/10.00)
 
-You can click on the jobs to see the logs:
+If a job is marked "pending", it means there are other students running jobs at
+the same time and you'll have to wait a bit for your job to run.
+
+You can click on the `grade` job to see its output:
 
 ![](images/pipeline-details.png)
 
