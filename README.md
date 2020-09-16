@@ -64,7 +64,7 @@ These office hours are there to help you setting up Git and Java our your machin
 | Functional Sets      | 23.09.2020 | 01.10.2020         |
 | Object-Oriented Sets | 30.09.2020 | 08.10.2020         |
 | Huffman Coding       | 07.10.2020 | 22.10.2020         |
-| Anagrams             | 21.10.2020 | 05.10.2020         |
+| Anagrams             | 21.10.2020 | 05.11.2020         |
 | Quickcheck           | 28.10.2020 | 12.11.2020         |
 | Bloxorz              | 04.11.2020 | 19.11.2020         |
 | Codecs               | 18.11.2020 | 03.12.2020         |
