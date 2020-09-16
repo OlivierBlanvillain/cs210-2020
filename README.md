@@ -100,7 +100,7 @@ The final exam date will be during the exam session in January 2021. The final e
 Information about exam organization will be communicated by email a few days before the exam.
 
 
-[Video 1.1.1]: https://tube.switch.ch/videos/d618abfb
+[Video 1.1.1]: https://tube.switch.ch/videos/7ed71e65
 [Video 1.1.2]: https://tube.switch.ch/videos/c448adfc
 [Video 1.1.3]: https://tube.switch.ch/videos/cd01d6a5
 [Video 1.1.4]: https://tube.switch.ch/videos/1aff2170
