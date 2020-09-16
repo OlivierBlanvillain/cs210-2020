@@ -169,8 +169,7 @@ Nothing to do, OpenSSH is pre-installed
 #### Windows
 
 Follow the instructions under "Enable OpenSSH Client in Windows 10" on
-[https://winaero.com/blog/enable-openssh-client-windows-10/](https://winaero.com/blog/enable-openssh-client-windows-10/),
-reboot afterwards.
+[https://winaero.com/blog/enable-openssh-client-windows-10/](https://winaero.com/blog/enable-openssh-client-windows-10/)
 
 ### Step 8.2: Generating the key pair
 
