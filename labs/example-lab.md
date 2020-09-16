@@ -18,7 +18,10 @@ git clone -b example git@gitlab.epfl.ch:lamp/students-repositories-fall-2020/cs2
 
 **If this command fails, make sure you've [logged into
 gitlab](https://gitlab.epfl.ch/users/sign_in) and [registered in a
-group](https://gitlab.epfl.ch/lamp/cs210/-/blob/master/exercises/Group%20workspaces.md), then wait a few minutes.**
+group](https://gitlab.epfl.ch/lamp/cs210/-/blob/master/exercises/Group%20workspaces.md),
+then wait a few minutes.
+If it still doesn't work it's likely that you didn't correctly upload your ssh
+key to gitlab, look at the last part of the [Tools Setup](tools-setup.md) page again.**
 
 ```shell
 cd cs210-example
