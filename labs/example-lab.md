@@ -256,7 +256,9 @@ In the sidebar that appears, click on "Import build", then wait a bit:
 ![](images/import-build.png)
 
 If things still don't work, try restarting Code (launch it in the same way you
-started it before, using `code .` from the project directory).
+started it before, using `code .` from the project directory). If you're still
+having issues, try clicking on "Clean compile workspace" from the same
+sidebar.
 
 ## Syntax errors for valid code in the IDE
 
