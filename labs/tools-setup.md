@@ -59,6 +59,21 @@ bitsadmin /transfer cs-cli https://git.io/coursier-cli-windows-exe "%cd%\cs.exe"
 .\cs setup -y --jvm 8 --apps cs,sbt
 ```
 
+If this command fails with `Error running powershell script`, use the following
+alternative instructions (if the command didn't fail, continue to the next
+step):
+
+1. Run `.\cs setup --jvm 8 --apps cs,sbt`, at every question answer "n" and
+   press Enter.
+2. The last question should look like "Should we add C:\...\bin to your PATH?",
+   please copy-paste the "C:\...\bin" part here.
+3. Manually add the path you copy-pasted to the Path environment variable. To
+   edit an environment variable see
+   https://www.architectryan.com/2018/08/31/how-to-change-environment-variables-on-windows-10/
+   make sure the path you're adding is the first entry in the Path environment
+   variable
+4. Start a new cmd.exe and continue with the rest of the instructions
+
 ## Step 5: Installing git
 
 git is a version control system.
