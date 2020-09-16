@@ -58,17 +58,17 @@ These office hours are there to help you setting up Git and Java our your machin
 
 ## Lab Schedule
 
-| Title                | Start Date | Due Date ([AoE](https://en.wikipedia.org/wiki/Anywhere_on_Earth)) |
-| :--                  | :--        | :--                |
-| [Recursion](labs/lab-1.md)            | 16.09.2020 | 27.09.2020         |
-| Functional Sets      | 23.09.2020 | 01.10.2020         |
-| Object-Oriented Sets | 30.09.2020 | 08.10.2020         |
-| Huffman Coding       | 07.10.2020 | 22.10.2020         |
-| Anagrams             | 21.10.2020 | 05.11.2020         |
-| Quickcheck           | 28.10.2020 | 12.11.2020         |
-| Bloxorz              | 04.11.2020 | 19.11.2020         |
-| Codecs               | 18.11.2020 | 03.12.2020         |
-| Interpreter          | 02.12.2020 | 17.12.2020         |
+| Title                             | Start Date | Discord Session         | Due Date ([AoE](https://en.wikipedia.org/wiki/Anywhere_on_Earth)) |
+| :--                               | :--        | :--                     | :--        |
+| [Recursion](labs/lab-1.md)        | 16.09.2020 | 18.09.2020              | 27.09.2020 |
+| Functional Sets                   | 23.09.2020 | 25.09.2020              | 01.10.2020 |
+| Object-Oriented Sets              | 30.09.2020 | 02.10.2020              | 08.10.2020 |
+| Huffman Coding                    | 07.10.2020 | 09.10.2020 & 16.10.2020 | 22.10.2020 |
+| Anagrams                          | 21.10.2020 | 23.10.2020              | 05.11.2020 |
+| Quickcheck                        | 28.10.2020 | 30.10.2020              | 12.11.2020 |
+| Bloxorz                           | 04.11.2020 | 06.11.2020 & 13.11.2020 | 19.11.2020 |
+| Codecs                            | 18.11.2020 | 20.11.2020 & 27.11.2020 | 03.12.2020 |
+| Interpreter                       | 02.12.2020 | 04.12.2020 & 11.12.2020 | 17.12.2020 |
 
 ## Exercise Session Schedule
 
