@@ -76,7 +76,7 @@ step):
    https://www.architectryan.com/2018/08/31/how-to-change-environment-variables-on-windows-10/
    and make sure the path you're adding is the first entry in the Path environment
    variable.
-4. Start a new cmd.exe and continue with the rest of the instructions
+4. Start a **new** cmd.exe and continue with the rest of the instructions
 
 ## Step 5: Installing git
 
@@ -105,7 +105,7 @@ brew install git
 ### On Windows
 
 Download and install git from [https://git-scm.com/downloads](https://git-scm.com/downloads).
-Once git is installed, open a new terminal and run:
+Once git is installed, open a **new** terminal and run:
 
 ```shell
 git config --global core.autocrlf false
@@ -134,7 +134,7 @@ installer is checked.
 
 ## Step 7: Installing the Scala support for Code
 
-Open a new terminal and run:
+Open a **new** terminal and run:
 ```scala
 code --install-extension lampepfl.dotty-syntax
 ```
@@ -174,7 +174,7 @@ reboot afterwards.
 
 ### Step 8.2: Generating the key pair
 
-Open a new terminal and run:
+Open a **new** terminal and run:
 
 ```shell
 ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
