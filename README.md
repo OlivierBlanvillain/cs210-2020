@@ -95,10 +95,10 @@ The final exam date will be during the exam session in January 2021. The final e
 Information about exam organization will be communicated by email a few days before the exam.
 
 
-[Video 1.1.1]: https://drive.google.com/file/d/1Gtz9IDWZ7aObqtsgFk7QcMkci4bKD74v/view?usp=sharing
-[Video 1.1.2]: https://drive.google.com/file/d/1nXKcpOkXTuRtuSJcf6_E1_MSbkaaPPpm/view?usp=sharing
-[Video 1.1.3]: https://drive.google.com/file/d/1ePJ_h7XwEcK899OWoer6Vpi4k2VQWUv4/view?usp=sharing
-[Video 1.1.4]: https://drive.google.com/file/d/1Ud0eI2GvTMlfNBLo60ADlv6KrZygD7UX/view?usp=sharing
-[Video 1.1.5]: https://drive.google.com/file/d/1tEU_dGRRVEHJH3magWhDSKEsW4ADOBw1/view?usp=sharing
-[Video 1.1.6]: https://drive.google.com/file/d/1ARKcSilynOTBssFEvQ-MFc7RgKtVfqha/view?usp=sharing
-[Video 1.1.7]: https://drive.google.com/file/d/1jbHxp5go47XBxolfGQjD7zs9fb-1sKky/view?usp=sharing
+[Video 1.1.1]: https://tube.switch.ch/videos/d618abfb
+[Video 1.1.2]: https://tube.switch.ch/videos/c448adfc
+[Video 1.1.3]: https://tube.switch.ch/videos/cd01d6a5
+[Video 1.1.4]: https://tube.switch.ch/videos/1aff2170
+[Video 1.1.5]: https://tube.switch.ch/videos/d950249f
+[Video 1.1.6]: https://tube.switch.ch/videos/848cb3f6
+[Video 1.1.7]: https://tube.switch.ch/videos/b641883d
