@@ -7,7 +7,7 @@ typically people have more trouble getting everything working correctly on
 Windows and it's harder for us to help them since we don't use Windows
 ourselves.
 
-** On Windows, if your username has spaces or special characters in it, the IDE might not
+**On Windows, if your username has spaces or special characters in it, the IDE might not
 work properly. Please create a new user with a username containing only letters.**
 
 # Step 1: Create an account on gitlab.epfl.ch, register in a group
