@@ -18,6 +18,10 @@ compile:
   # all our caches are inside CI_PROJECT_DIR:
   script:
     - XDG_CACHE_HOME=${CI_PROJECT_DIR}/.cache sbt -Dsbt.boot.directory="${CI_PROJECT_DIR}/.sbt-boot" -Dsbt.ivy.home="${CI_PROJECT_DIR}/.ivy2" packageSubmission
+  # Careful: using a cache on a gitlab-runner means that a cache.zip file will
+  # be downloaded to each container, this can quickly fill up disk space on the
+  # runner space. To mitigate this we use a `docker-prune` systemd timer that
+  # runs `docker system prune --force --volume -a`.
   cache:
     key: cs210-2020
     paths:
