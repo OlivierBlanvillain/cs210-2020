@@ -74,7 +74,7 @@ These office hours are there to help you setting up Git and Java our your machin
 
 | Title                                          | Handout Released | Discord Session (13:15 to 15:00) | Due Date ([AoE](https://en.wikipedia.org/wiki/Anywhere_on_Earth)) | Solution Released |
 | :--                                            | :--              | :--             | :--              | :--              |
-| [Tools Setup](labs/tools-setup.md) Session     | -                | 16.09.2020      | -                | -                |
+| First week tasks                               | -                | 16.09.2020      | -                | -                |
 | [Exercise Session 1](exercises/exercise-1.md)  | -                | 23.09.2020      | 27.09.2020       | 28.09.2020       |
 | Exercise Session 2                             | 28.09.2020       | 30.10.2020      | 04.10.2020       | 05.10.2020       |
 | Exercise Session 3                             | 05.10.2020       | 07.10.2020      | 11.10.2020       | 12.10.2020       |
