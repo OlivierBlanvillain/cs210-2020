@@ -100,7 +100,6 @@ build":
 
 You'll need to wait a bit for the import to finish, if an error appears try
 closing and restarting Code in the same way we started it above.
-
 ### Usage
 
 It's now time to dig in! Earlier we talked about a failing test, the stack trace
@@ -125,6 +124,7 @@ This tells us that the crash happened when calling `sum`, we can hover with our 
 
 ![](images/hover.png)
 
+**If hovering doesn't show this see the [#troubleshooting](Troubleshooting) section.**
 
 The hover is split into two parts: the first part is:
 ```scala
@@ -240,3 +240,20 @@ will be shown in green on the right.
 ## Part 5: Submitting your Solution
 
 [Click here to learn how to submit your lab.](grading-and-submission.md)
+
+# Troubleshooting
+
+## IDE features like type-on-hover or go-to-definition do not work
+
+It's likely that the build wasn't imported, we can import it manually:
+
+Click on the "m" logo in the left bar (where the red arrow is in the screenshot below):
+
+![](images/menu-metals.png)
+
+In the sidebar that appears, click on "Import build", then wait a bit:
+
+![](images/import-build.png)
+
+If things still don't work, try restarting Code (launch it in the same way you
+started it before, using `code .` from the project directory).
