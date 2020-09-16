@@ -92,6 +92,9 @@ it won't be able to import your project:
 code .
 ```
 
+(if you see an error `Expected ';'` it means you're inside sbt, open a new
+terminal in the same directory)
+
 The first time the IDE starts, it will take some time to download more
 components, eventually it will ask you to import the build, please click "Import
 build":
