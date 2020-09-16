@@ -66,7 +66,8 @@ bitsadmin /transfer cs-cli https://git.io/coursier-cli-windows-exe "%cd%\cs.exe"
 ```
 
 (This command might cause your anti-virus to misidentify cs.exe as a virus,
-please override that).
+please override that, that might require temporarily turning off your anti-virus
+during this setup).
 
 If this command fails with `Error running powershell script`, use the following
 alternative instructions (if the command didn't fail, continue to the next
