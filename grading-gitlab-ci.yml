@@ -6,7 +6,7 @@ workflow:
   rules:
     # Don't run the CI on commit messages contain "[no-ci]", used to deploy
     # assignments without overloading the CI.
-    - if: $CI_COMMIT_MESSAGE !~ "/[no-ci]/"
+    - if: $CI_COMMIT_MESSAGE !~ "[no-ci]"
 
 stages:
   - build
