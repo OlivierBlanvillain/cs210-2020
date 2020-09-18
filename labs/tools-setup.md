@@ -83,6 +83,9 @@ step):
    variable.
 4. Start a **new** cmd.exe and continue with the rest of the instructions
 
+**In case of errors please ask on Discord or Gitlab issues for help, but don't
+try to run commands as Administrator as this will likely cause further issues!**
+
 ## Step 5: Installing git
 
 git is a version control system.
