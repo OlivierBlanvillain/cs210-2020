@@ -11,6 +11,9 @@ git clone -b recfun git@gitlab.epfl.ch:lamp/students-repositories-fall-2020/cs21
 cd cs210-recfun
 ```
 
+**If you encounter any issue with the IDE, please refer back to the
+[Troubleshooting section of the example lab](#troubleshooting).**
+
 You can always refer to:
   * [the example guide](https://gitlab.epfl.ch/lamp/cs210/blob/master/labs/example-lab.md) on the development workflow.
   * [this guide](https://gitlab.epfl.ch/lamp/cs210/blob/master/labs/grading-and-submission.md) for details on the submission system.
