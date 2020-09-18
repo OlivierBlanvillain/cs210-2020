@@ -84,7 +84,7 @@ Labs are submitted by pushing your code on GitLab, see details in the [grading a
 | Title                                          | Handout Released | Discord Session (13:15 to 15:00) | Due Date ([AoE](https://en.wikipedia.org/wiki/Anywhere_on_Earth)) | Solution Released |
 | :--                                            | :--              | :--             | :--              | :--              |
 | First week tasks                               | -                | 16.09.2020      | -                | -                |
-| [Exercise Session 1](exercises/exercise-1.md)  | -                | *25.09.2020*      | 27.09.2020       | 28.09.2020       |
+| [Exercise Session 1](exercises/exercise-1.md)  | -                | 23.09.2020      | 27.09.2020       | 28.09.2020       |
 | Exercise Session 2                             | 28.09.2020       | 30.10.2020      | 04.10.2020       | 05.10.2020       |
 | Exercise Session 3                             | 05.10.2020       | 07.10.2020      | 11.10.2020       | 12.10.2020       |
 | Exercise Session 4                             | 12.10.2020       | 14.10.2020      | 19.10.2020       | 20.10.2020       |
