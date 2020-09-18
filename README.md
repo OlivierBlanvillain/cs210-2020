@@ -47,7 +47,7 @@ repository and run `code . ` inside as usual: [`git clone https://gitlab.epfl.ch
 
 | Week | Date        | Topic                       | Video              |
 | :--  | :--         | :--                         | :--                |
-| 1    | 16.09.2020  | Intro class                 | [Part 1][Video 1.1.1], [Part 2][Video 1.1.2], [Part 3][Video 1.1.3], [Part 4][Video 1.1.4], [Part 5][Video 1.1.5], [Part 6][Video 1.1.6], [Part 7][Video 1.1.7]  |
+| 1    | 16.09.2020  | Intro class                 | [Part 1][Video 1.1.1], [Part 2][Video 1.1.2], [Part 3][Video 1.1.3], [Part 4][Video 1.1.4], [Part 5][Video 1.1.5], [Part 6][Video 1.1.6], [Part 7][Video 1.1.7] (Backup links [Part 1][Video 1.1.1 back], [Part 2][Video 1.1.2 back], [Part 3][Video 1.1.3 back], [Part 4][Video 1.1.4 back], [Part 5][Video 1.1.5 back], [Part 6][Video 1.1.6 back], [Part 7][Video 1.1.7 back]) |
 | 2    | 23.09.2020  | Recursion / Function values |                    |
 | 3    | 30.09.2020  | Classes                     |                    |
 | 4    | 07.10.2020  | Classes                     |                    |
@@ -114,11 +114,11 @@ Information about exam organization will be communicated by email a few days bef
 [Video 1.1.6]: https://tube.switch.ch/videos/848cb3f6
 [Video 1.1.7]: https://tube.switch.ch/videos/b641883d
 
-[Video 1.1.1 back]: https://tube.switch.ch/videos/7ed71e65
-[Video 1.1.2 back]: https://tube.switch.ch/videos/c448adfc
-[Video 1.1.3 back]: https://tube.switch.ch/videos/cd01d6a5
-[Video 1.1.4 back]: https://tube.switch.ch/videos/1aff2170
-[Video 1.1.5 back]: https://tube.switch.ch/videos/d950249f
-[Video 1.1.6 back]: https://tube.switch.ch/videos/848cb3f6
-[Video 1.1.7 back]: https://tube.switch.ch/videos/b641883d
+[Video 1.1.1 back]: https://drive.google.com/file/d/1Gtz9IDWZ7aObqtsgFk7QcMkci4bKD74v/view?usp=sharing
+[Video 1.1.2 back]: https://drive.google.com/file/d/1nXKcpOkXTuRtuSJcf6_E1_MSbkaaPPpm/view?usp=sharing
+[Video 1.1.3 back]: https://drive.google.com/file/d/1ePJ_h7XwEcK899OWoer6Vpi4k2VQWUv4/view?usp=sharing
+[Video 1.1.4 back]: https://drive.google.com/file/d/1Ud0eI2GvTMlfNBLo60ADlv6KrZygD7UX/view?usp=sharing
+[Video 1.1.5 back]: https://drive.google.com/file/d/1tEU_dGRRVEHJH3magWhDSKEsW4ADOBw1/view?usp=sharing
+[Video 1.1.6 back]: https://drive.google.com/file/d/1ARKcSilynOTBssFEvQ-MFc7RgKtVfqha/view?usp=sharing
+[Video 1.1.7 back]: https://drive.google.com/file/d/1jbHxp5go47XBxolfGQjD7zs9fb-1sKky/view?usp=sharing
 
