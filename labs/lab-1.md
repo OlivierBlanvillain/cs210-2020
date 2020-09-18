@@ -12,7 +12,7 @@ cd cs210-recfun
 ```
 
 **If you encounter any issue with the IDE, please refer back to the
-[Troubleshooting section of the example lab](#troubleshooting).**
+[Troubleshooting section of the example lab](example-lab.md#troubleshooting).**
 
 You can always refer to:
   * [the example guide](https://gitlab.epfl.ch/lamp/cs210/blob/master/labs/example-lab.md) on the development workflow.
