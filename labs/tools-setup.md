@@ -131,12 +131,9 @@ See [https://code.visualstudio.com/docs/setup/linux](https://code.visualstudio.c
 
 ### On macOS
 
-See
-[https://code.visualstudio.com/docs/setup/mac](https://code.visualstudio.com/docs/setup/mac).
-Please follow the "Installation" as well as the "Launching from the Command
-Line" instructions, but when you reach the part that says "To manually add VS
-Code to your path, you can run the following commands:", do **not** run the
-following commands, you can stop at this point, everything is already installed.
+```shell
+brew cask install visual-studio-code
+```
 
 ### On Windows
 
