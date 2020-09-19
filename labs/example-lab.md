@@ -92,6 +92,9 @@ it won't be able to import your project:
 code .
 ```
 
+(In this command the `.` is important, it's how we tell Code to run in the
+current directory)
+
 (if you see an error `Expected ';'` it means you're inside sbt, open a new
 terminal in the same directory)
 
