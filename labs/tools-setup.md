@@ -58,6 +58,16 @@ Download and install the [Visual C++ 2010 Redistributable Package](https://www.m
 
 Open `cmd.exe` (and not powershell)
 
+First, make sure that you are not in the `System32` directory, instead you
+should be in `C:\Users\yourusername`. If you are in `System32` you will need to
+change directory to your user directory every time you start a terminal by
+running:
+```shell
+cd %USERPROFILE%
+```
+
+Now assuming that you're in the correct directory you can run:
+
 ```shell
 bitsadmin /transfer cs-cli https://git.io/coursier-cli-windows-exe "%cd%\cs.exe"
 ```
