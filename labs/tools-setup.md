@@ -54,7 +54,7 @@ cs setup -y --jvm 8 --apps sbt
 
 ### On Windows
 
-Download and install the [Visual C++ 2010 Redistributable Package](https://www.microsoft.com/en-us/download/details.aspx?id=14632).
+Download and install the [Visual C++ 2010 SP1 Redistributable Package](https://www.microsoft.com/en-us/download/details.aspx?id=13523).
 
 Open `cmd.exe` (and not powershell)
 
