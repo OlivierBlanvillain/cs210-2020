@@ -115,9 +115,9 @@ Information about exam organization will be communicated by email a few days bef
 [Video 1.1.7]: https://tube.switch.ch/videos/1843caa3
 [Video 1.2.1]: https://tube.switch.ch/videos/646cfe4f
 [Video 1.2.2]: https://tube.switch.ch/videos/9e573d2f
-[Video 1.2.3]: 
+[Video 1.2.3]: https://tube.switch.ch/videos/0e2be793
 [Video 1.2.4]: https://tube.switch.ch/videos/ddcbb43f
-[Video 1.2.5]: 
+[Video 1.2.5]: https://tube.switch.ch/videos/0e2be793
 [Video 1.2.6]: https://tube.switch.ch/videos/6e8643cf
 [Video 1.2.7]: https://tube.switch.ch/videos/dc82606b
 
