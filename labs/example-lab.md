@@ -273,7 +273,8 @@ When first opening a file you might see some syntax errors for valid code:
 ![](images/syntax-error-bug.png)
 
 This is a known bug and can be ignored, as soon as you start typing in this
-file, these errors should go away.
+file, these errors should go away (if they don't, try the import build
+instructions above).
 
 ## Warning about Bloop installed version
 
