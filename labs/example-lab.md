@@ -274,3 +274,9 @@ When first opening a file you might see some syntax errors for valid code:
 
 This is a known bug and can be ignored, as soon as you start typing in this
 file, these errors should go away.
+
+## Warning about Bloop installed version
+
+If you get a warning like this:
+
+![](images/bloop-update.png)
