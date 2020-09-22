@@ -280,3 +280,5 @@ file, these errors should go away.
 If you get a warning like this:
 
 ![](images/bloop-update.png)
+
+Please click the first button "Turn off old server".
