@@ -66,7 +66,7 @@ repository and run `code . ` inside as usual: [`git clone https://gitlab.epfl.ch
 
 | Title                             | Start Date | Discord Session (10:15 to 12:00) | Due Date ([AoE](https://en.wikipedia.org/wiki/Anywhere_on_Earth)) |
 | :--                               | :--        | :--                     | :--        |
-| [Recursion](labs/lab-1.md)        | 16.09.2020 | 18.09.2020              | 27.09.2020 |
+| [Recursion](labs/lab-1.md)        | 16.09.2020 | 18.09.2020              | *27.09.2020* |
 | Functional Sets                   | 23.09.2020 | 25.09.2020              | 01.10.2020 |
 | Object-Oriented Sets              | 30.09.2020 | 02.10.2020              | 08.10.2020 |
 | Huffman Coding                    | 07.10.2020 | 09.10.2020 & 16.10.2020 | 22.10.2020 |
