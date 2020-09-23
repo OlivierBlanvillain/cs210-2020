@@ -48,7 +48,7 @@ repository and run `code . ` inside as usual: [`git clone https://gitlab.epfl.ch
 | Week | Date        | Topic                       | Video              |
 | :--  | :--         | :--                         | :--                |
 | 1    | 16.09.2020  | Intro class                 | [Part 1][Video 1.1.1], [Part 2][Video 1.1.2], [Part 3][Video 1.1.3], [Part 4][Video 1.1.4], [Part 5][Video 1.1.5], [Part 6][Video 1.1.6], [Part 7][Video 1.1.7] |
-| 2    | 23.09.2020  | Recursion / Function values |                    |
+| 2    | 23.09.2020  | Recursion / Function values | [Part 1][Video 1.2.1], [Part 2][Video 1.2.2], [Part 3][Video 1.2.3], [Part 4][Video 1.2.4], Part 5 (Comming soon), [Part 6][Video 1.2.6], [Part 7][Video 1.2.7] |
 | 3    | 30.09.2020  | Classes                     |                    |
 | 4    | 07.10.2020  | Classes                     |                    |
 | 5    | 14.10.2020  | List                        |                    |
@@ -117,7 +117,6 @@ Information about exam organization will be communicated by email a few days bef
 [Video 1.2.2]: https://tube.switch.ch/videos/9e573d2f
 [Video 1.2.3]: https://tube.switch.ch/videos/0e2be793
 [Video 1.2.4]: https://tube.switch.ch/videos/ddcbb43f
-[Video 1.2.5]: https://tube.switch.ch/videos/0e2be793
 [Video 1.2.6]: https://tube.switch.ch/videos/6e8643cf
 [Video 1.2.7]: https://tube.switch.ch/videos/dc82606b
 
