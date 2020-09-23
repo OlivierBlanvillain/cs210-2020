@@ -79,7 +79,7 @@ repository and run `code . ` inside as usual: [`git clone https://gitlab.epfl.ch
 Labs are individual assignments where you get to write Scala programs using the concepts learned during lectures.
 Labs are submitted by pushing your code on GitLab, see details in the [grading and submission](labs/grading-and-submission.md) page.
 
-## Exercise Session Schedule
+## Exercise Schedule
 
 | Title                                          | Handout Released | Discord Session (Wednesdays 13:15 to 15:00) | Due Date ([AoE](https://en.wikipedia.org/wiki/Anywhere_on_Earth)) | Solution Released |
 | :--                                            | :--              | :--             | :--              | :--              |
