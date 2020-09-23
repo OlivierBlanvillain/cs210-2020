@@ -64,10 +64,10 @@ repository and run `code . ` inside as usual: [`git clone https://gitlab.epfl.ch
 
 ## Lab Schedule
 
-| Title                             | Start Date | Discord Session (10:15 to 12:00) | Due Date ([AoE](https://en.wikipedia.org/wiki/Anywhere_on_Earth)) |
+| Title                             | Start Date | Discord Session (Fridays 10:15 to 12:00) | Due Date ([AoE](https://en.wikipedia.org/wiki/Anywhere_on_Earth)) |
 | :--                               | :--        | :--                     | :--        |
 | [Recursion](labs/lab-1.md)        | 16.09.2020 | 18.09.2020              | *27.09.2020* |
-| Functional Sets                   | 23.09.2020 | 25.09.2020              | 01.10.2020 |
+| [Functional Sets](labs/lab-2.md)  | 23.09.2020 | 25.09.2020              | 01.10.2020 |
 | Object-Oriented Sets              | 30.09.2020 | 02.10.2020              | 08.10.2020 |
 | Huffman Coding                    | 07.10.2020 | 09.10.2020 & 16.10.2020 | 22.10.2020 |
 | Anagrams                          | 21.10.2020 | 23.10.2020              | 05.11.2020 |
@@ -81,7 +81,7 @@ Labs are submitted by pushing your code on GitLab, see details in the [grading a
 
 ## Exercise Session Schedule
 
-| Title                                          | Handout Released | Discord Session (13:15 to 15:00) | Due Date ([AoE](https://en.wikipedia.org/wiki/Anywhere_on_Earth)) | Solution Released |
+| Title                                          | Handout Released | Discord Session (Wednesdays 13:15 to 15:00) | Due Date ([AoE](https://en.wikipedia.org/wiki/Anywhere_on_Earth)) | Solution Released |
 | :--                                            | :--              | :--             | :--              | :--              |
 | First week tasks                               | -                | 16.09.2020      | -                | -                |
 | [Exercise Session 1](exercises/exercise-1.md)  | -                | 23.09.2020      | 27.09.2020       | 28.09.2020       |
