@@ -61,7 +61,7 @@ git commit -am "My message"
 You can then synchronize your local git repository with the gitlab server by
 first running:
 ```shell
- git pull
+ git pull --no-rebase
 ```
 
 This will merge in your local repository any change we made to the lab
