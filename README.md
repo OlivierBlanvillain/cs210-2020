@@ -113,6 +113,7 @@ Information about exam organization will be communicated by email a few days bef
 [Video 1.1.5]: https://tube.switch.ch/videos/1f8d3205
 [Video 1.1.6]: https://tube.switch.ch/videos/9274e0f4
 [Video 1.1.7]: https://tube.switch.ch/videos/1843caa3
+
 [Video 1.2.1]: https://tube.switch.ch/videos/646cfe4f
 [Video 1.2.2]: https://tube.switch.ch/videos/9e573d2f
 [Video 1.2.3]: https://tube.switch.ch/videos/0e2be793
@@ -120,6 +121,12 @@ Information about exam organization will be communicated by email a few days bef
 [Video 1.2.5]: https://tube.switch.ch/videos/dec623bc
 [Video 1.2.6]: https://tube.switch.ch/videos/6e8643cf
 [Video 1.2.7]: https://tube.switch.ch/videos/dc82606b
+
+[Video 1.3.1]: https://tube.switch.ch/videos/56c88e00
+[Video 1.3.2]: https://tube.switch.ch/videos/1c969056
+[Video 1.3.3]: https://tube.switch.ch/videos/d3a7aff4
+[Video 1.3.4]: https://tube.switch.ch/videos/03486c5a
+[Video 1.3.5]: https://tube.switch.ch/videos/82b0e104
 
 [Video 1.1.1 back]: https://drive.google.com/file/d/1Gtz9IDWZ7aObqtsgFk7QcMkci4bKD74v/view?usp=sharing
 [Video 1.1.2 back]: https://drive.google.com/file/d/1nXKcpOkXTuRtuSJcf6_E1_MSbkaaPPpm/view?usp=sharing
