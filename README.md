@@ -25,7 +25,7 @@ The grading of the course is divided between labs (25%), exercises (5%) and a fi
 | :---        | :--- |
 | Professors  | [Martin Odersky](https://people.epfl.ch/martin.odersky), [Viktor Kunčak](https://people.epfl.ch/viktor.kuncak) |
 | TAs         | [Adrien Ghosn](https://people.epfl.ch/adrien.ghosn), [Dragana Milovancevic](https://people.epfl.ch/dragana.milovancevic), [Guillaume Martres](https://people.epfl.ch/guillaume.martres), [Nicolas Stucki](https://people.epfl.ch/nicolas.stucki), [Olivier Blanvillain](https://people.epfl.ch/olivier.blanvillain) |
-| Student TAs | [Arthur Vignon](https://people.epfl.ch/arthur.vignon), [Emilien Ordonneau](https://people.epfl.ch/emilien.ordonneau), [Lucas Giordano](https://people.epfl.ch/lucas.giordano), [Mohamed Dhraief](https://people.epfl.ch/mohamed.dhraief) |
+| Student TAs | [Arthur Vignon](https://people.epfl.ch/arthur.vignon), [Emilien Ordonneau](https://people.epfl.ch/emilien.ordonneau), [Lucas Giordano](https://people.epfl.ch/lucas.giordano), [Mohamed Dhraief](https://people.epfl.ch/mohamed.dhraief), [Sara Djambazovska](https://people.epfl.ch/sara.djambazovska) |
 
 ## Rooms
 
