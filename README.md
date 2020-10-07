@@ -51,7 +51,7 @@ repository and run `code . ` inside as usual: [`git clone https://gitlab.epfl.ch
 | 1    | 16.09.2020  | Intro class                 | [Part 1][Video 1.1.1], [Part 2][Video 1.1.2], [Part 3][Video 1.1.3], [Part 4][Video 1.1.4], [Part 5][Video 1.1.5], [Part 6][Video 1.1.6], [Part 7][Video 1.1.7] |
 | 2    | 23.09.2020  | Recursion / Function values | [Part 1][Video 1.2.1], [Part 2][Video 1.2.2], [Part 3][Video 1.2.3], [Part 4][Video 1.2.4], [Part 5][Video 1.2.5], [Part 6][Video 1.2.6], [Part 7][Video 1.2.7] |
 | 3    | 30.09.2020  | Classes                     | [Part 1][Video 1.3.1], [Part 2][Video 1.3.2], [Part 3][Video 1.3.3], [Part 4][Video 1.3.4], [Part 5][Video 1.3.5] |
-| 4    | 07.10.2020  | Classes                     |                    |
+| 4    | 07.10.2020  | Classes                     | [Part 1][Video 1.4.1], [Part 2][Video 1.4.2], [Part 3][Video 1.4.3], [Part 4][Video 1.4.4], [Part 5][Video 1.4.5], [Part 6][Video 1.4.6]                   |
 | 5    | 14.10.2020  | List                        |                    |
 | 6    | 21.10.2020  | Collection                  |                    |
 | 7    | 04.11.2020  | Monads                      |                    |
