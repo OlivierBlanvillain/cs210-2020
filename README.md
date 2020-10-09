@@ -67,9 +67,9 @@ repository and run `code . ` inside as usual: [`git clone https://gitlab.epfl.ch
 
 | Title                             | Start Date | Discord Session (Fridays 10:15 to 12:00) | Due Date ([AoE](https://en.wikipedia.org/wiki/Anywhere_on_Earth)) |
 | :--                               | :--        | :--                     | :--        |
-| Recursion                         | 16.09.2020 | 18.09.2020              | *27.09.2020* |
+| Recursion                         | 16.09.2020 | 18.09.2020              | 27.09.2020 |
 | Functional Sets                   | 23.09.2020 | 25.09.2020              | 01.10.2020 |
-| Object-Oriented Sets              | 30.09.2020 | 02.10.2020              | 08.10.2020 |
+| Object-Oriented Sets              | 30.09.2020 | 02.10.2020              | **11.10.2020** (updated after GitLab outage) |
 | Huffman Coding                    | 07.10.2020 | 09.10.2020 & 16.10.2020 | 22.10.2020 |
 | Anagrams                          | 21.10.2020 | 23.10.2020              | 05.11.2020 |
 | Quickcheck                        | 28.10.2020 | 30.10.2020              | 12.11.2020 |
