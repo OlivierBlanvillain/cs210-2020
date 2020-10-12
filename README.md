@@ -136,11 +136,8 @@ Information about exam organization will be communicated by email a few days bef
 [Video 1.4.5]: https://tube.switch.ch/videos/9a844297
 [Video 1.4.6]: https://tube.switch.ch/videos/35c4e417
 
-[Video 1.1.1 back]: https://drive.google.com/file/d/1Gtz9IDWZ7aObqtsgFk7QcMkci4bKD74v/view?usp=sharing
-[Video 1.1.2 back]: https://drive.google.com/file/d/1nXKcpOkXTuRtuSJcf6_E1_MSbkaaPPpm/view?usp=sharing
-[Video 1.1.3 back]: https://drive.google.com/file/d/1ePJ_h7XwEcK899OWoer6Vpi4k2VQWUv4/view?usp=sharing
-[Video 1.1.4 back]: https://drive.google.com/file/d/1Ud0eI2GvTMlfNBLo60ADlv6KrZygD7UX/view?usp=sharing
-[Video 1.1.5 back]: https://drive.google.com/file/d/1tEU_dGRRVEHJH3magWhDSKEsW4ADOBw1/view?usp=sharing
-[Video 1.1.6 back]: https://drive.google.com/file/d/1ARKcSilynOTBssFEvQ-MFc7RgKtVfqha/view?usp=sharing
-[Video 1.1.7 back]: https://drive.google.com/file/d/1jbHxp5go47XBxolfGQjD7zs9fb-1sKky/view?usp=sharing
-
+[Video 1.5.1]: https://tube.switch.ch/videos/8e9cf6a5
+[Video 1.5.2]: https://tube.switch.ch/videos/40edd184
+[Video 1.5.3]: https://tube.switch.ch/videos/af626839
+[Video 1.5.4]: https://tube.switch.ch/videos/e0e380fe
+[Video 1.5.5]: https://tube.switch.ch/videos/9ebad679
