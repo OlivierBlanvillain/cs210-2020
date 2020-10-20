@@ -53,7 +53,7 @@ repository and run `code . ` inside as usual: [`git clone https://gitlab.epfl.ch
 | 3    | 30.09.2020  | Classes                     | [Part 1][Video 1.3.1], [Part 2][Video 1.3.2], [Part 3][Video 1.3.3], [Part 4][Video 1.3.4], [Part 5][Video 1.3.5] |
 | 4    | 07.10.2020  | Classes                     | [Part 1][Video 1.4.1], [Part 2][Video 1.4.2], [Part 3][Video 1.4.3], [Part 4][Video 1.4.4], [Part 5][Video 1.4.5], [Part 6][Video 1.4.6]                   |
 | 5    | 14.10.2020  | List                        | [Part 1][Video 1.5.1], [Part 2][Video 1.5.2], [Part 3][Video 1.5.3], [Part 4][Video 1.5.4], [Part 5][Video 1.5.5]                   |
-| 6    | 21.10.2020  | Collection                  |                    |
+| 6    | 21.10.2020  | Collection                  | [Part 1][Video 1.6.1], [Part 2][Video 1.6.2], [Part 3][Video 1.6.3], [Part 4][Video 1.6.4], [Part 5][Video 1.6.5] |
 | 7    | 04.11.2020  | Monads                      |                    |
 | 8    | 28.10.2020  | Lazy evaluation             |                    |
 | 9    | 11.11.2020  | Type-directed computation   |                    |
