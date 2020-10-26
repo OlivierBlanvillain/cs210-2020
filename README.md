@@ -147,3 +147,10 @@ Information about exam organization will be communicated by email a few days bef
 [Video 1.6.3]: https://tube.switch.ch/videos/7f2fcf99
 [Video 1.6.4]: https://tube.switch.ch/videos/a4519732
 [Video 1.6.5]: https://tube.switch.ch/videos/30005570
+
+[Video 2.1.1]: https://tube.switch.ch/videos/680a1d2a
+[Video 2.1.2]: https://tube.switch.ch/videos/935b0da5
+[Video 2.1.3]: https://tube.switch.ch/videos/2ac4c232
+[Video 2.1.4]: https://tube.switch.ch/videos/f9c5677b
+[Video 2.1.5]: https://tube.switch.ch/videos/16b5d240
+[Video 2.1.6]: https://tube.switch.ch/videos/fdfb0609
