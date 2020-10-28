@@ -24,6 +24,18 @@ def triangles(edges: DirectedGraph): List[(NodeId, NodeId, NodeId)] =
   } yield (e1._1, e1._2, e2._2)
 ```
 
+An alternative solution using case extractors and references to previous values
+```scala
+def triangles(edges: DirectedGraph): List[(NodeId, NodeId, NodeId)] =
+  for {
+    case (a, b) <- edges;
+    if a < b; // The first node is the smallest of the cycle.
+    case (`b`, c) <- edges;
+    if a < c;
+    case (`c`, `a`) <- edges;
+  } yield (a, b, c)
+```
+
 ## Question 1.2
 
 ```scala
