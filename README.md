@@ -2,7 +2,7 @@ This repository will be used as the website for Functional Programming CS-210. I
 
 - [previous-exams](previous-exams) contains PDFs for the previous exams.
 - [exercises](exercises) contains markdown documents for the exercise sessions and solutions.
-- [slides](slides) contains the slides presented in class.
+- [slides](slides) contains the slides presented in class (also attached or respective videos).
 - [labs](labs) contains markdown documents for the labs.
 
 We will use GitLab's issue tracker as a discussion forum. Feel free to [open an issue](https://gitlab.epfl.ch/lamp/cs210/issues/new) if you have any comments or questions
