@@ -27,7 +27,7 @@ As in the previous assignments, you are encouraged to look at the Scala API docu
 
 ## Bloxorz
 
-Bloxorz is a game in Flash, which you can access [here](http://www.coolmath-games.com/0-bloxorz/index.html). As a first step for this assignment, *play it* for a few levels.
+Bloxorz is a game in Flash, which you can access [here](https://www.coolmathgames.com/0-bloxorz). As a first step for this assignment, *play it* for a few levels.
 
 The objective of Bloxorz is simple; you must navigate your rectangular block to the hole at the end of the board, by rolling it, in the fewest number of moves possible. A block can be moved in 4 possible directions, left, right, up, down, using the appropriate keys on the keyboard.
 
