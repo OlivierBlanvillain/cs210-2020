@@ -56,7 +56,7 @@ repository and run `code . ` inside as usual: [`git clone https://gitlab.epfl.ch
 | 6    | 21.10.2020  | Collection                  | [Other Collections][Video 1.6.1], [Combinatorial Search and For-Expressions][Video 1.6.2], [Combinatorial Search Example][Video 1.6.3], [Maps][Video 1.6.4], [Putting the Pieces Together][Video 1.6.5] |
 | 7    | 28.10.2020  | Monads                      | [Recap][Video 2.1.1], [Queries with for][Video 2.1.2], [Translation of for][Video 2.1.3], [Functional Random Generators][Video 2.1.4], [Monads][Video 2.1.5], [Exceptional Monads][Video 2.1.6]                   |
 | 8    | 04.11.2020  | Lazy evaluation             | [Structural Induction on Trees][Video 2.2.1], [Lazy Lists][Video 2.2.2], [Lazy Evaluation][Video 2.2.3], [Infinite Sequences][Video 2.2.4], [Case Study][Video 2.2.5]                   |
-| 9    | 11.11.2020  | Type-directed computation   |                    |
+| 9    | 11.11.2020  | Type-directed computation   | [Contextual abstraction][Video 2.3.1], [Using clauses and given instances][Video 2.3.2], [Type classes][Video 2.3.3], [Abstract algebra and type classes][Video 2.3.4], [Context passing][Video 2.3.5], [Implicit function types][Video 2.3.6]                   |
 | 10   | 18.11.2020  | State                       |                    |
 | 11   | 25.11.2020  | Functional Reactive Programming and Constraint Propagation / Symbolic computation |                    |
 | 12   | 02.12.2020  | Interpreter                 |                    |
@@ -160,3 +160,10 @@ Information about exam organization will be communicated by email a few days bef
 [Video 2.2.3]: https://tube.switch.ch/videos/8506774b
 [Video 2.2.4]: https://tube.switch.ch/videos/7064a6b1
 [Video 2.2.5]: https://tube.switch.ch/videos/889a5305
+
+[Video 2.3.1]: https://tube.switch.ch/videos/d5df9a21
+[Video 2.3.2]: https://tube.switch.ch/videos/cef63f8a
+[Video 2.3.3]: https://tube.switch.ch/videos/8c7b6f4e
+[Video 2.3.4]: https://tube.switch.ch/videos/a65a3022
+[Video 2.3.5]: https://tube.switch.ch/videos/057bcf4e
+[Video 2.3.6]: https://tube.switch.ch/videos/cab2248b
