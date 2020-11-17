@@ -11,12 +11,13 @@ We can define it as follows:
 
 ```scala
 trait Eq[T]:
-  def (x: T) === (y: T): Boolean
+  extension (x: T)
+    def === (y: T): Boolean
 ```
 
-1. Write a `given` definition to create `Eq[List[T]]` from a `Eq[T]`.
-2. Write a `given` definition to create `Eq[(T, U, S)]` from `Eq[T]`, `Eq[U]` and `Eq[S]`.
-3. Write `given` definitions to create `Eq[Person]`. Make use of both the definitions you have written previously.
+1. Write a `given` instnace to create `Eq[List[T]]` from a `Eq[T]`.
+2. Write a `given` instance to create `Eq[(T, U, S)]` from `Eq[T]`, `Eq[U]` and `Eq[S]`.
+3. Write `given` instance to create `Eq[Person]`. Make use of both the definitions you have written previously.
 
 ```scala
 case class Person(name: String, age: Int, neighbours: List[String])
