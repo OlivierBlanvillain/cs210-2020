@@ -57,7 +57,7 @@ repository and run `code . ` inside as usual: [`git clone https://gitlab.epfl.ch
 | 7    | 28.10.2020  | Monads                      | [Recap][Video 2.1.1], [Queries with for][Video 2.1.2], [Translation of for][Video 2.1.3], [Functional Random Generators][Video 2.1.4], [Monads][Video 2.1.5], [Exceptional Monads][Video 2.1.6]                   |
 | 8    | 04.11.2020  | Lazy evaluation             | [Structural Induction on Trees][Video 2.2.1], [Lazy Lists][Video 2.2.2], [Lazy Evaluation][Video 2.2.3], [Infinite Sequences][Video 2.2.4], [Case Study][Video 2.2.5]                   |
 | 9    | 11.11.2020  | Type-directed computation   | [Contextual abstraction][Video 2.3.1], [Using clauses and given instances][Video 2.3.2], [Type classes][Video 2.3.3], [Abstract algebra and type classes][Video 2.3.4], [Context passing][Video 2.3.5], [Implicit function types][Video 2.3.6]                   |
-| 10   | 18.11.2020  | State                       |                    |
+| 10   | 18.11.2020  | State                       |  [Functions and state][Video 2.4.1], [Identity and change][Video 2.4.2], [Loops][Video 2.4.3], [Discrete Event Simulation][Video 2.4.4]                  |
 | 11   | 25.11.2020  | Functional Reactive Programming and Constraint Propagation / Symbolic computation |                    |
 | 12   | 02.12.2020  | Interpreter                 |                    |
 | 13   | 09.12.2020  | Interpreter                 |                    |
@@ -167,3 +167,8 @@ Information about exam organization will be communicated by email a few days bef
 [Video 2.3.4]: https://tube.switch.ch/videos/a65a3022
 [Video 2.3.5]: https://tube.switch.ch/videos/057bcf4e
 [Video 2.3.6]: https://tube.switch.ch/videos/cab2248b
+
+[Video 2.4.1]: https://tube.switch.ch/videos/f32bc013
+[Video 2.4.2]: https://tube.switch.ch/videos/7bf009ce
+[Video 2.4.3]: https://tube.switch.ch/videos/a2a7b6fb
+[Video 2.4.4]: https://tube.switch.ch/videos/95c82b17
