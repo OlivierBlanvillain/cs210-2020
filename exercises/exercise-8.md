@@ -10,7 +10,7 @@ Similarly, an instance of `Eq[A]` allows us to compare values of type `A` to see
 We can define it as follows:
 
 ```scala
-trait Eq[T] with
+trait Eq[T]:
   def (x: T) === (y: T): Boolean
 ```
 
@@ -22,10 +22,10 @@ trait Eq[T] with
 case class Person(name: String, age: Int, neighbours: List[String])
 ```
 
-4. Explicitly write the `given` argument to `summon` (you may need to assign names to your `given` definitions):
+4. Explicitly write the `using` argument to `summon` (you may need to assign names to your `given` definitions):
 
 ```scala
-summon[Eq[Person]](given ...)
+summon[Eq[Person]](using ...)
 ```
 
 ## Question 2
@@ -69,14 +69,14 @@ With the appropriate given definitions, the compiler can infer an instance of `S
 ```scala
 case class Sum[N <: Nat, M <: Nat, R <: Nat](result: R)
 
-given zero = Z
-given succ[N <: Nat](given n: N): S[N] = S(n)
+given zero as Z = Z
+given succ[N <: Nat](using n: N) as S[N] = S(n)
 
-given sumZ[N <: Nat](given n: N): Sum[Z, N, N] = Sum(n)
+given sumZ[N <: Nat](using n: N) as Sum[Z, N, N] = Sum(n)
 
 given sumS[N <: Nat, M <: Nat, R <: Nat](
-  given sum: Sum[N, M, R]
-): Sum[S[N], M, S[R]] = Sum(S(sum.result))
+  using sum: Sum[N, M, R]
+) as Sum[S[N], M, S[R]] = Sum(S(sum.result))
 ```
 
 Note how the last two `given` definitions reflect the definition of the `add1` method: `sumZ` corresponds to the case for `Z + M`, and `sumS` corresponds to the case for `S[N] + M`.
@@ -87,7 +87,7 @@ values and assigns a precise type to the result:
 
 ```scala
 def add[N <: Nat, M <: Nat, R <: Nat](n: N, m: M)(
-  given sum: Sum[N, M, R]
+  using sum: Sum[N, M, R]
 ): R = sum.result
 ```
 
@@ -97,10 +97,10 @@ As an example, the result of adding `S[Z]` to `S[Z]` is `S[S[Z]]`:
 sum(S(Z), S(Z)) : S[S[Z]]
 ```
 
-1. Write explicitly the `given` argument to `sum` (it may help to write all type parameters explicitly):
+1. Write explicitly the `using` argument to `sum` (it may help to write all type parameters explicitly):
 
 ```scala
-add(S(Z), S(S(Z)))(given ...)
+add(S(Z), S(S(Z)))(using ...)
 ```
 
 2. Write `given` definitions that create an instance of the
