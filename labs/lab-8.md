@@ -171,6 +171,18 @@ and the corresponding given instances of `Decoder[Int]`, `Decoder[String]` and `
 
 Make sure that your `Int` decoder rejects JSON floating point numbers.
 
+#### Troubleshooting
+The grading tests (run with `grading:test` or on gitlab) will not work
+at all until this part of the assignment is complete, if you get an error like
+this:
+```scala
+==> X codecs.CodecsSuite.initializationError  0.002s java.lang.NoClassDefFoundError: Lcodecs/EncoderInstances$given_Encoder_Boolean$;
+```
+It means you haven't defined one of the given instance mentioned above (make
+sure you define them as anonymous instance, so `given Encoder[Boolean]`, not
+`given booleanEncoder as Encoder[Boolean]`, this is required for our grading
+tests to work).
+
 ### Derived Codecs
 
 The next step consists in implementing a codec for lists of elements of type `A`, given
