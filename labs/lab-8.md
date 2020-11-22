@@ -172,6 +172,19 @@ and the corresponding given instances of `Decoder[Int]`, `Decoder[String]` and `
 Make sure that your `Int` decoder rejects JSON floating point numbers.
 
 #### Troubleshooting
+
+#### Error when compiling
+If `compile` fails with a long error message containing:
+```scala
+[error] scala.MatchError: ClassInfo(...
+```
+It means you're running on Java >= 14. We only support Java 8 in this
+course, refer back to [Step 2 of the Tools
+Setup page](https://gitlab.epfl.ch/lamp/cs210/-/blob/master/labs/tools-setup.md)
+which gives instructions for installing Java 8 using `cs`.
+
+#### Error when running the grading tests
+
 The grading tests (run with `grading:test` or on gitlab) will not work
 at all until this part of the assignment is complete, if you get an error like
 this:
