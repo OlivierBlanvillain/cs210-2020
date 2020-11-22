@@ -104,6 +104,10 @@ sum(S(Z), S(Z)) : S[S[Z]]
 add(S(Z), S(S(Z)))(using ...)
 ```
 
+*Note:* If you try this in the Scala 3 compiler right now, the result won't be correct,
+this is a known compiler bug: https://github.com/lampepfl/dotty/issues/7586
+
+
 2. Write `given` definitions that create an instance of the
 `Product[N, M, R]` type class, representing the evidence that `N * M = R`.
 
