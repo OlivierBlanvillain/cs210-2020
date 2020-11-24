@@ -47,7 +47,7 @@ Your task is to implement the greatest common divisor (`gcd`) function in `Expr`
 
 Hint: in Scala the `gcd` can be implemented as
 ```scala
-def gcd(a: Int, b: Int): Int = if (b == 0) a else gcd(b, a%b)
+def gcd(a: Int, b: Int): Int = if b == 0 then a else gcd(b, a%b)
 ```
 
 ## Question 2
@@ -82,10 +82,9 @@ Your task is to implement the `map` function in `Expr`.
 
 Hint:
 ```scala
-def map(ls: List[Int])(f: Int => Int): List[Int] = ls match {
+def map(ls: List[Int])(f: Int => Int): List[Int] = ls match
   case Nil => Nil
   case x :: xs => f(x) :: map(xs)(f)
-}
 ```
 
 
@@ -93,10 +92,9 @@ def map(ls: List[Int])(f: Int => Int): List[Int] = ls match {
 Your task is to implement the `foldLeft` function in `Expr`.
 Hint:
 ```scala
-def foldLeft(ls: List[Int])(acc: Int)(f: (Int, Int) => Int): Int = ls match {
+def foldLeft(ls: List[Int])(acc: Int)(f: (Int, Int) => Int): Int = ls match
   case Nil => acc
   case x :: xs => foldLeft(xs)(f(acc, x))(f)
-}
 ```
 
 ## Question 3
@@ -119,5 +117,9 @@ Hint:
 ```scala
 val mem: Array[Int] = ???
 def CAS(idx: Int)(old: Int)(nw: Int): Int =
-  if mem(idx) != old then 0 else { mem(idx) = nw; 1 }
+  if mem(idx) != old then
+    0
+  else
+    mem(idx) = nw
+    1
 ```
