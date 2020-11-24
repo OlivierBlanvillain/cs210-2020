@@ -5,7 +5,7 @@
 For this exercise, you are given the following ASTs representing an expression `Expr`
 
 ```scala
-enum Expr
+enum Expr:
   case Constant(value: Int) // Numeric constants
   case Name(name: String) // reference to a name
   case BinOp(op: BinOps, arg1: Expr, arg2: Expr) // primitive binary operation
@@ -54,7 +54,7 @@ def gcd(a: Int, b: Int): Int = if (b == 0) a else gcd(b, a%b)
 
 For this exercise, we will add lists to our language
 ```scala
-enum Expr
+enum Expr:
   ...
   case Cons(head: Expr, tail: Expr) // Cons list
   case EmptyList // empty of a Cons list
@@ -103,7 +103,7 @@ def foldLeft(ls: List[Int])(acc: Int)(f: (Int, Int) => Int): Int = ls match {
 
 For this exercise, we will add writable cells to our language. Assume we have a global array of memory that can be accessed by index.
 ```scala
-enum Expr
+enum Expr:
   …
   // read from position `idx`
   case Read(idx: Expr)
