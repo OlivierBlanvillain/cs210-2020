@@ -102,7 +102,7 @@ def foldLeft(ls: List[Int])(acc: Int)(f: (Int, Int) => Int): Int = ls match
 For this exercise, we will add writable cells to our language. Assume we have a global array of memory that can be accessed by index.
 ```scala
 enum Expr:
-  …
+  ...
   // read from position `idx`
   case Read(idx: Expr)
   // write the `value` to position `idx` and then evaluates and return the `andThen` expression
