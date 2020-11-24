@@ -21,7 +21,7 @@ You can always refer to:
 The goal of this final assignment is to extend the simple programming language presented in the lecture with a list-like datatype. Recall the datatype of expressions:
 
 ~~~scala
-enum Expr
+enum Expr:
   case Constant(value: Int)
   case Name(name: String)
   case BinOp(op: BinOps, arg1: Expr, arg2: Expr)
@@ -33,7 +33,7 @@ enum Expr
 We extend this datatype with 3 extra cases:
 
 ~~~scala
-enum Expr
+enum Expr:
   [...]
   case Empty
   case Cons(head: Expr, tail: Expr)
@@ -69,7 +69,7 @@ def main(args: Array[String]): Unit =
   tracingEval(Call(Call(N("gcd"), C(6)), C(9)), definitions)
 ~~~
 
-Execute the interpreter using `run` from an sbt console. With the reference implementation, the trace looks as follows:
+Execute the interpreter using `run` from sbt. With the reference implementation, the trace looks as follows:
 
 ~~~
 gcd(6)(9)
@@ -97,7 +97,7 @@ You might have noticed while compiling the project the presence of several warni
 
 ## Evaluation
 
-Update the `eval` function to support `Empty`, `Cons` and `Match`. `Empty` should evaluate to itself. Likewise, `Cons` should evaluate to a `Cons` where with evaluated arguments. `Match` should first evaluate its `scrutinee`, then either reduce to `caseEmpty`, reduce to `caseCons` or raise an error if the `scrutinee` is not a list.
+Update the `eval` function to support `Empty`, `Cons` and `Match`. `Empty` should evaluate to itself. Likewise, `Cons` should evaluate to a `Cons` with evaluated arguments. `Match` should first evaluate its `scrutinee`, then either reduce to `caseEmpty`, reduce to `caseCons` or raise an error if the `scrutinee` is not a list.
 
 Adding cases in the `eval` function should be sufficient to evaluate `Match` expressions in isolation (see `evalTests` in `RecursiveLanguageSuite.scala`), but extra work is needed to support `Match` used into functions and nested `Match`-s.
 
@@ -141,4 +141,4 @@ twice(fact)(3)
 
 Looking back at pattern matching expression, we can see that the two binders of a `Match` suffer from the same variable capturing problem than function. Indeed, given an expression of shape `(h :: t) match { case x :: xs => body }`, when we substitute `x` by `h` and `xs` by `t` in `body`, we need to avoid changing the meaning of free variables in `h` and `t`.
 
-Update `freeVars` and `alphaConvert` to with cases for `Empty`, `Cons` and `Match`. Have a look at the corresponding unit tests, `freeVarsTests` and `alphaConvertTests` in `RecursiveLanguageSuite.scala`. Finally, update `subst` with capture avoiding substitution for pattern matching. Note that `subst` is only tested using integration tests, so make sure that you have all other tests passing before starting to implement that last function. Also note that this assignment doesn't have any black-box tests (no need to run `sbt runGradingTests`, `sbt test` should suffice).
+Update `freeVars` and `alphaConvert` to with cases for `Empty`, `Cons` and `Match`. Have a look at the corresponding unit tests, `freeVarsTests` and `alphaConvertTests` in `RecursiveLanguageSuite.scala`. Finally, update `subst` with capture avoiding substitution for pattern matching. Note that `subst` is only tested using integration tests, so make sure that you have all other tests passing before starting to implement that last function. Also note that this assignment doesn't have any black-box tests (no need to run `grading:test`, `test` will run all the tests).
