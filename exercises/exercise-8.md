@@ -112,7 +112,7 @@ this is a known compiler bug: https://github.com/lampepfl/dotty/issues/7586
 `Product[N, M, R]` type class, representing the evidence that `N * M = R`.
 
 ```scala
-case class Product[N <: Nat, M <: Nat, R <: Nat](r: R)
+case class Product[N <: Nat, M <: Nat, R <: Nat](result: R)
 ```
 
 Hint 1: Multiplying two natural numbers is defined as follows:
