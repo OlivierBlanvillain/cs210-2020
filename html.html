@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>README</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<p>This repository will be used as the website for Functional Programming CS-210. It will be updated weekly throughout the semester. This README contains general information about the class.</p>
+<ul>
+<li><a href="previous-exams">previous-exams</a> contains PDFs for the previous exams.</li>
+<li><a href="exercises">exercises</a> contains markdown documents for the exercise sessions and solutions.</li>
+<li><a href="slides">slides</a> contains the slides presented in class (also attached or respective videos).</li>
+<li><a href="labs">labs</a> contains markdown documents for the labs.</li>
+</ul>
+<p>We will use GitLab’s issue tracker as a discussion forum. Feel free to <a href="https://gitlab.epfl.ch/lamp/cs210/issues/new">open an issue</a> if you have any comments or questions</p>
+<h1 id="first-week-tasks">First-week tasks</h1>
+<ol type="1">
+<li><a href="https://discord.gg/8ud6UpE">Join the Discord</a></li>
+<li>Log into gitlab: https://gitlab.epfl.ch/users/sign_in</li>
+<li><a href="exercises/Group%20workspaces.md">Register in a group</a> for the exercise sessions</li>
+<li>Follow the <a href="labs/tools-setup.md">Tools Setup</a> page.</li>
+<li>Do the <a href="labs/example-lab.md">example lab</a>.</li>
+<li>Do the <a href="labs/lab-1.md">first graded lab</a>.</li>
+</ol>
+<h2 id="grading">Grading</h2>
+<p>The grading of the course is divided between labs (25%), exercises (5%) and a final exam (70%). There will be no midterm exam this year.</p>
+<h2 id="staff">Staff</h2>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Role</th>
+<th style="text-align: left;">People</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Professors</td>
+<td style="text-align: left;"><a href="https://people.epfl.ch/martin.odersky">Martin Odersky</a>, <a href="https://people.epfl.ch/viktor.kuncak">Viktor Kunčak</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">TAs</td>
+<td style="text-align: left;"><a href="https://people.epfl.ch/adrien.ghosn">Adrien Ghosn</a>, <a href="https://people.epfl.ch/dragana.milovancevic">Dragana Milovancevic</a>, <a href="https://people.epfl.ch/guillaume.martres">Guillaume Martres</a>, <a href="https://people.epfl.ch/nicolas.stucki">Nicolas Stucki</a>, <a href="https://people.epfl.ch/olivier.blanvillain">Olivier Blanvillain</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Student TAs</td>
+<td style="text-align: left;"><a href="https://people.epfl.ch/arthur.vignon">Arthur Vignon</a>, <a href="https://people.epfl.ch/emilien.ordonneau">Emilien Ordonneau</a>, <a href="https://people.epfl.ch/lucas.giordano">Lucas Giordano</a>, <a href="https://people.epfl.ch/mohamed.dhraief">Mohamed Dhraief</a>, <a href="https://people.epfl.ch/sara.djambazovska">Sara Djambazovska</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rooms">Rooms</h2>
+<p>Lectures are prerecorded and published on this page. Exercise sessions take place on Wednesdays from 13:15 to 15:00 on <a href="https://discord.gg/8ud6UpE">Discord</a>. Lab sessions take place on Fridays from 10:15 to 12:00, also on <a href="https://discord.gg/8ud6UpE">Discord</a>. In the first 2 weeks of the semester, in-person office hours will be held on Wednesdays from 13:15 to 15:00 in CO 2, and on Fridays from 10:15 to 12:00 in ELA1. These office hours are there to help you setting up Git and Java our your machines and answer any other question you might have about the class. We will be happy to arrange further in-person or virtual (Discord, Zoom, etc.) office hours–just contact one of us with a list of all your available time slots.</p>
+<h2 id="lecture-schedule">Lecture Schedule</h2>
+<!-- date -d "30/09/2019 364 days" +"%d.%m.%Y" -->
+<p><strong>Note</strong>: In some lectures, worksheets are used to present code. To learn how to use worksheets yourselves, please follow the <a href="labs/tools-setup.md">Tools Setup</a> and <a href="labs/example-lab.md">example lab</a>. To create a new empty project to experiment with worksheets, you can clone the following repository and run <code>code .</code> inside as usual: <a href="https://gitlab.epfl.ch/lamp/cs210-worksheets"><code>git clone https://gitlab.epfl.ch/lamp/cs210-worksheets</code></a></p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Week</th>
+<th style="text-align: left;">Date</th>
+<th style="text-align: left;">Topic</th>
+<th style="text-align: left;">Video</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">16.09.2020</td>
+<td style="text-align: left;">Intro class</td>
+<td style="text-align: left;"><a href="https://tube.switch.ch/videos/7ed71e65">Introduction</a> (<a href="slides/progfun1-1-1.pdf">slides</a>), <a href="https://tube.switch.ch/videos/eefaaa33">Elements of programming</a> (<a href="slides/progfun1-1-2.pdf">slides</a>), <a href="https://tube.switch.ch/videos/7ec55c9c">Evaluation strategies and termination</a> (<a href="slides/progfun1-1-3.pdf">slides</a>), <a href="https://tube.switch.ch/videos/f8abe6bf">Value Definitions and Conditionals</a> (<a href="slides/progfun1-1-4.pdf">slides</a>), <a href="https://tube.switch.ch/videos/1f8d3205">Square Roots with Newtons Methods</a> (<a href="slides/progfun1-1-5.pdf">slides</a>), <a href="https://tube.switch.ch/videos/9274e0f4">Blocks and lexical scopes</a> (<a href="slides/progfun1-1-6.pdf">slides</a>), <a href="https://tube.switch.ch/videos/1843caa3">Tail Recursion</a> (<a href="slides/progfun1-1-7.pdf">slides</a>)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">23.09.2020</td>
+<td style="text-align: left;">Recursion / Function values</td>
+<td style="text-align: left;"><a href="https://tube.switch.ch/videos/646cfe4f">Higher-Order Functions</a> (<a href="slides/progfun1-2-1.pdf">slides</a>), <a href="https://tube.switch.ch/videos/9e573d2f">Currying</a> (<a href="slides/progfun1-2-2.pdf">slides</a>), <a href="https://tube.switch.ch/videos/0e2be793">Finding FixedPoints</a> (<a href="slides/progfun1-2-3.pdf">slides</a>), <a href="https://tube.switch.ch/videos/ddcbb43f">Scala Syntax Summary</a> (<a href="slides/progfun1-2-4.pdf">slides</a>), <a href="https://tube.switch.ch/videos/dec623bc">Functions and Data</a> (<a href="slides/progfun1-2-5.pdf">slides</a>), <a href="https://tube.switch.ch/videos/6e8643cf">Data Abstraction</a> (<a href="slides/progfun1-2-6.pdf">slides</a>), <a href="https://tube.switch.ch/videos/dc82606b">Evaluation and Operators</a> (<a href="slides/progfun1-2-7.pdf">slides</a>)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">30.09.2020</td>
+<td style="text-align: left;">Classes</td>
+<td style="text-align: left;"><a href="https://tube.switch.ch/videos/56c88e00">Class Hierarchies</a> (<a href="slides/progfun1-3-1.pdf">slides</a>), <a href="https://tube.switch.ch/videos/1c969056">How Classes are Organized</a> (<a href="slides/progfun1-3-2.pdf">slides</a>), <a href="https://tube.switch.ch/videos/d3a7aff4">Polymorphism</a> (<a href="slides/progfun1-3-3.pdf">slides</a>), <a href="https://tube.switch.ch/videos/03486c5a">Objects Everywhere</a> (<a href="slides/progfun1-3-4.pdf">slides</a>), <a href="https://tube.switch.ch/videos/82b0e104">Functions as Objects</a> (<a href="slides/progfun1-3-5.pdf">slides</a>)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">07.10.2020</td>
+<td style="text-align: left;">Classes</td>
+<td style="text-align: left;"><a href="https://tube.switch.ch/videos/f5879da4">Decomposition</a> (<a href="slides/progfun1-4-1.pdf">slides</a>), <a href="https://tube.switch.ch/videos/e7df77e5">Pattern Matching</a> (<a href="slides/progfun1-4-2.pdf">slides</a>), <a href="https://tube.switch.ch/videos/978832a8">Lists</a> (<a href="slides/progfun1-4-3.pdf">slides</a>), <a href="https://tube.switch.ch/videos/ea910999">Enums</a> (<a href="slides/progfun1-4-4.pdf">slides</a>), <a href="https://tube.switch.ch/videos/9a844297">Subtyping and Generics</a> (<a href="slides/progfun1-4-5.pdf">slides</a>), <a href="https://tube.switch.ch/videos/35c4e417">Variance</a> (<a href="slides/progfun1-4-6.pdf">slides</a>)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">14.10.2020</td>
+<td style="text-align: left;">List</td>
+<td style="text-align: left;"><a href="https://tube.switch.ch/videos/8e9cf6a5">A closer look at lists</a> (<a href="slides/progfun1-5-1.pdf">slides</a>), <a href="https://tube.switch.ch/videos/40edd184">Tuples and generic methods</a> (<a href="slides/progfun1-5-2.pdf">slides</a>), <a href="https://tube.switch.ch/videos/af626839">Higher order list functions</a> (<a href="slides/progfun1-5-3.pdf">slides</a>), <a href="https://tube.switch.ch/videos/e0e380fe">Reduction of lists</a> (<a href="slides/progfun1-5-4.pdf">slides</a>), <a href="https://tube.switch.ch/videos/9ebad679">Reasoning about lists</a> (<a href="slides/progfun1-5-5.pdf">slides</a>)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">21.10.2020</td>
+<td style="text-align: left;">Collection</td>
+<td style="text-align: left;"><a href="https://tube.switch.ch/videos/58a6fe2a">Other Collections</a> (<a href="slides/progfun1-6-1.pdf">slides</a>), <a href="https://tube.switch.ch/videos/a09a7679">Combinatorial Search and For-Expressions</a> (<a href="slides/progfun1-6-2.pdf">slides</a>), <a href="https://tube.switch.ch/videos/7f2fcf99">Combinatorial Search Example</a> (<a href="slides/progfun1-6-3.pdf">slides</a>), <a href="https://tube.switch.ch/videos/a4519732">Maps</a> (<a href="slides/progfun1-6-4.pdf">slides</a>), <a href="https://tube.switch.ch/videos/30005570">Putting the Pieces Together</a> (<a href="slides/progfun1-6-5.pdf">slides</a>)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">28.10.2020</td>
+<td style="text-align: left;">Monads</td>
+<td style="text-align: left;"><a href="https://tube.switch.ch/videos/680a1d2a">Recap</a> (<a href="slides/progfun2-1-1.pdf">slides</a>), <a href="https://tube.switch.ch/videos/935b0da5">Queries with for</a> (<a href="slides/progfun2-1-2.pdf">slides</a>), <a href="https://tube.switch.ch/videos/2ac4c232">Translation of for</a> (<a href="slides/progfun2-1-3.pdf">slides</a>), <a href="https://tube.switch.ch/videos/f9c5677b">Functional Random Generators</a> (<a href="slides/progfun2-1-4.pdf">slides</a>), <a href="https://tube.switch.ch/videos/16b5d240">Monads</a> (<a href="slides/progfun2-1-5.pdf">slides</a>), <a href="https://tube.switch.ch/videos/fdfb0609">Exceptional Monads</a> (<a href="slides/progfun2-1-6.pdf">slides</a>)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">04.11.2020</td>
+<td style="text-align: left;">Lazy evaluation</td>
+<td style="text-align: left;"><a href="https://tube.switch.ch/videos/0accfa13">Structural Induction on Trees</a> (<a href="slides/progfun2-2-1.pdf">slides</a>), <a href="https://tube.switch.ch/videos/fbd7e361">Lazy Lists</a> (<a href="slides/progfun2-2-2.pdf">slides</a>), <a href="https://tube.switch.ch/videos/8506774b">Lazy Evaluation</a> (<a href="slides/progfun2-2-3.pdf">slides</a>), <a href="https://tube.switch.ch/videos/7064a6b1">Infinite Sequences</a> (<a href="slides/progfun2-2-4.pdf">slides</a>), <a href="https://tube.switch.ch/videos/889a5305">Case Study</a> (<a href="slides/progfun2-2-5.pdf">slides</a>)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">11.11.2020</td>
+<td style="text-align: left;">Type-directed computation</td>
+<td style="text-align: left;"><a href="https://tube.switch.ch/videos/d5df9a21">Contextual abstraction</a> (<a href="slides/progfun2-3-1.pdf">slides</a>), <a href="https://tube.switch.ch/videos/cef63f8a">Using clauses and given instances</a> (<a href="slides/progfun2-3-2.pdf">slides</a>), <a href="https://tube.switch.ch/videos/8c7b6f4e">Type classes</a> (<a href="slides/progfun2-3-3.pdf">slides</a>), <a href="https://tube.switch.ch/videos/a65a3022">Abstract algebra and type classes</a> (<a href="slides/progfun2-3-4.pdf">slides</a>), <a href="https://tube.switch.ch/videos/ee6fdc37">Context passing</a> (<a href="slides/progfun2-3-5.pdf">slides</a>), <a href="https://tube.switch.ch/videos/cab2248b">Implicit function types</a> (<a href="slides/progfun2-3-6.pdf">slides</a>)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">18.11.2020</td>
+<td style="text-align: left;">State</td>
+<td style="text-align: left;"><a href="https://tube.switch.ch/videos/f32bc013">Functions and state</a> (<a href="slides/progfun2-4-1.pdf">slides</a>), <a href="https://tube.switch.ch/videos/7bf009ce">Identity and change</a> (<a href="slides/progfun2-4-2.pdf">slides</a>), <a href="https://tube.switch.ch/videos/a2a7b6fb">Loops</a> (<a href="slides/progfun2-4-3.pdf">slides</a>), <a href="https://tube.switch.ch/videos/95c82b17">Discrete Event Simulation</a> (<a href="slides/progfun2-4-4.pdf">slides</a>)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11</td>
+<td style="text-align: left;">25.11.2020</td>
+<td style="text-align: left;">Functional Reactive Programming and Constraint Propagation / Symbolic computation</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">12</td>
+<td style="text-align: left;">02.12.2020</td>
+<td style="text-align: left;">Interpreter</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">13</td>
+<td style="text-align: left;">09.12.2020</td>
+<td style="text-align: left;">Interpreter</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">14</td>
+<td style="text-align: left;">16.12.2020</td>
+<td style="text-align: left;">Review for the exam</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="lab-schedule">Lab Schedule</h2>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Title</th>
+<th style="text-align: left;">Start Date</th>
+<th style="text-align: left;">Discord Session (Fridays 10:15 to 12:00)</th>
+<th style="text-align: left;">Due Date (<a href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">AoE</a>)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Recursion</td>
+<td style="text-align: left;">16.09.2020</td>
+<td style="text-align: left;">18.09.2020</td>
+<td style="text-align: left;">27.09.2020</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Functional Sets</td>
+<td style="text-align: left;">23.09.2020</td>
+<td style="text-align: left;">25.09.2020</td>
+<td style="text-align: left;">01.10.2020</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Object-Oriented Sets</td>
+<td style="text-align: left;">30.09.2020</td>
+<td style="text-align: left;">02.10.2020</td>
+<td style="text-align: left;"><strong>11.10.2020</strong> (updated after GitLab outage)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Huffman Coding</td>
+<td style="text-align: left;">07.10.2020</td>
+<td style="text-align: left;">09.10.2020 &amp; 16.10.2020</td>
+<td style="text-align: left;">22.10.2020</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Anagrams</td>
+<td style="text-align: left;">21.10.2020</td>
+<td style="text-align: left;">23.10.2020</td>
+<td style="text-align: left;">05.11.2020</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Quickcheck</td>
+<td style="text-align: left;">28.10.2020</td>
+<td style="text-align: left;">30.10.2020</td>
+<td style="text-align: left;">12.11.2020</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Bloxorz</td>
+<td style="text-align: left;">04.11.2020</td>
+<td style="text-align: left;">06.11.2020 &amp; 13.11.2020</td>
+<td style="text-align: left;">19.11.2020</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Codecs</td>
+<td style="text-align: left;">18.11.2020</td>
+<td style="text-align: left;">20.11.2020 &amp; 27.11.2020</td>
+<td style="text-align: left;">03.12.2020</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Interpreter</td>
+<td style="text-align: left;">02.12.2020</td>
+<td style="text-align: left;">04.12.2020 &amp; 11.12.2020</td>
+<td style="text-align: left;">17.12.2020</td>
+</tr>
+</tbody>
+</table>
+<p>Labs are individual assignments where you get to write Scala programs using the concepts learned during lectures. Labs are submitted by pushing your code on GitLab, see details in the <a href="labs/grading-and-submission.md">grading and submission</a> page.</p>
+<h2 id="exercise-schedule">Exercise Schedule</h2>
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Title</th>
+<th style="text-align: left;">Handout Released</th>
+<th style="text-align: left;">Discord Session (Wednesdays 13:15 to 15:00)</th>
+<th style="text-align: left;">Due Date (<a href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">AoE</a>)</th>
+<th style="text-align: left;">Solution Released</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">First week tasks</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">16.09.2020</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Exercise Session 1</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">23.09.2020</td>
+<td style="text-align: left;">27.09.2020</td>
+<td style="text-align: left;">28.09.2020</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Exercise Session 2</td>
+<td style="text-align: left;">28.09.2020</td>
+<td style="text-align: left;">30.09.2020</td>
+<td style="text-align: left;">04.10.2020</td>
+<td style="text-align: left;">05.10.2020</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Exercise Session 3</td>
+<td style="text-align: left;">05.10.2020</td>
+<td style="text-align: left;">07.10.2020</td>
+<td style="text-align: left;">11.10.2020</td>
+<td style="text-align: left;">12.10.2020</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Exercise Session 4</td>
+<td style="text-align: left;">12.10.2020</td>
+<td style="text-align: left;">14.10.2020</td>
+<td style="text-align: left;">19.10.2020</td>
+<td style="text-align: left;">20.10.2020</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Exercise Session 5</td>
+<td style="text-align: left;">20.10.2020</td>
+<td style="text-align: left;">21.10.2020</td>
+<td style="text-align: left;">25.10.2020</td>
+<td style="text-align: left;">26.10.2020</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Exercise Session 6</td>
+<td style="text-align: left;">26.10.2020</td>
+<td style="text-align: left;">28.10.2020</td>
+<td style="text-align: left;">01.11.2020</td>
+<td style="text-align: left;">02.11.2020</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Exercise Session 7</td>
+<td style="text-align: left;">09.11.2020</td>
+<td style="text-align: left;">11.11.2020</td>
+<td style="text-align: left;">15.11.2020</td>
+<td style="text-align: left;">16.11.2020</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Exercise Session 8</td>
+<td style="text-align: left;">16.11.2020</td>
+<td style="text-align: left;">18.11.2020</td>
+<td style="text-align: left;">22.11.2020</td>
+<td style="text-align: left;">23.11.2020</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Exercise Session 9</td>
+<td style="text-align: left;">23.11.2020</td>
+<td style="text-align: left;">25.11.2020</td>
+<td style="text-align: left;">29.11.2020</td>
+<td style="text-align: left;">30.11.2020</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Exercise Session 10</td>
+<td style="text-align: left;">30.11.2020</td>
+<td style="text-align: left;">02.12.2020</td>
+<td style="text-align: left;">06.12.2020</td>
+<td style="text-align: left;">07.12.2020</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Exercise Session 11</td>
+<td style="text-align: left;">07.12.2020</td>
+<td style="text-align: left;">09.12.2020</td>
+<td style="text-align: left;">13.12.2020</td>
+<td style="text-align: left;">14.12.2020</td>
+</tr>
+</tbody>
+</table>
+<p>Exercises are pen and paper style questions that will prepare you for the final exam. Exercises should be done in groups and submitted via Google Drive, see details in the <a href="exercises/Group%20workspaces.md">Group workspaces</a> page.</p>
+<h2 id="exam-schedule">Exam Schedule</h2>
+<p>The final exam date will be during the exam session in January 2021. The final exam will cover all material seen during the semester.</p>
+<p>Information about exam organization will be communicated by email a few days before the exam.</p>
+</body>
+</html>
