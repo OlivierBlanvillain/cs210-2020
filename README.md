@@ -48,16 +48,16 @@ repository and run `code . ` inside as usual: [`git clone https://gitlab.epfl.ch
 
 | Week | Date        | Topic                       | Video              |
 | :--  | :--         | :--                         | :--                |
-| 1    | 16.09.2020  | Intro class                 | [Introduction][Video 1.1.1] ([slides][Slides 1.1.1]), [Elements of programming][Video 1.1.2] ([slides][Slides 1.1.2]), [Evaluation strategies and termination][Video 1.1.3] ([slides][Slides 1.1.3]), [Value Definitions and Conditionals][Video 1.1.4] ([slides][Slides 1.1.4]), [Square Roots with Newtons Methods][Video 1.1.5] ([slides][Slides 1.1.5]), [Blocks and lexical scopes][Video 1.1.6] ([slides][Slides 1.1.6]), [Tail Recursion][Video 1.1.7] ([slides][Slides 1.1.7]) |
-| 2    | 23.09.2020  | Recursion / Function values | [Higher-Order Functions][Video 1.2.1] ([slides][Slides 1.2.1]), [Currying][Video 1.2.2] ([slides][Slides 1.2.2]), [Finding FixedPoints][Video 1.2.3] ([slides][Slides 1.2.3]), [Scala Syntax Summary][Video 1.2.4] ([slides][Slides 1.2.4]), [Functions and Data][Video 1.2.5] ([slides][Slides 1.2.5]), [Data Abstraction][Video 1.2.6] ([slides][Slides 1.2.6]), [Evaluation and Operators][Video 1.2.7] ([slides][Slides 1.2.7]) |
-| 3    | 30.09.2020  | Classes                     | [Class Hierarchies][Video 1.3.1] ([slides][Slides 1.3.1]), [How Classes are Organized][Video 1.3.2] ([slides][Slides 1.3.2]), [Polymorphism][Video 1.3.3] ([slides][Slides 1.3.3]), [Objects Everywhere][Video 1.3.4] ([slides][Slides 1.3.4]), [Functions as Objects][Video 1.3.5] ([slides][Slides 1.3.5]) |
-| 4    | 07.10.2020  | Classes                     | [Decomposition][Video 1.4.1] ([slides][Slides 1.4.1]), [Pattern Matching][Video 1.4.2] ([slides][Slides 1.4.2]), [Lists][Video 1.4.3] ([slides][Slides 1.4.3]), [Enums][Video 1.4.4] ([slides][Slides 1.4.4]), [Subtyping and Generics][Video 1.4.5] ([slides][Slides 1.4.5]), [Variance][Video 1.4.6] ([slides][Slides 1.4.6])                   |
-| 5    | 14.10.2020  | List                        | [A closer look at lists][Video 1.5.1] ([slides][Slides 1.5.1]), [Tuples and generic methods][Video 1.5.2] ([slides][Slides 1.5.2]), [Higher order list functions][Video 1.5.3] ([slides][Slides 1.5.3]), [Reduction of lists][Video 1.5.4] ([slides][Slides 1.5.4]), [Reasoning about lists][Video 1.5.5] ([slides][Slides 1.5.5])                   |
-| 6    | 21.10.2020  | Collection                  | [Other Collections][Video 1.6.1] ([slides][Slides 1.6.1]), [Combinatorial Search and For-Expressions][Video 1.6.2] ([slides][Slides 1.6.2]), [Combinatorial Search Example][Video 1.6.3] ([slides][Slides 1.6.3]), [Maps][Video 1.6.4] ([slides][Slides 1.6.4]), [Putting the Pieces Together][Video 1.6.5] ([slides][Slides 1.6.5]) |
-| 7    | 28.10.2020  | Monads                      | [Recap][Video 2.1.1] ([slides][Slides 2.1.1]), [Queries with for][Video 2.1.2] ([slides][Slides 2.1.2]), [Translation of for][Video 2.1.3] ([slides][Slides 2.1.3]), [Functional Random Generators][Video 2.1.4] ([slides][Slides 2.1.4]), [Monads][Video 2.1.5] ([slides][Slides 2.1.5]), [Exceptional Monads][Video 2.1.6] ([slides][Slides 2.1.6])                   |
-| 8    | 04.11.2020  | Lazy evaluation             | [Structural Induction on Trees][Video 2.2.1] ([slides][Slides 2.2.1]), [Lazy Lists][Video 2.2.2] ([slides][Slides 2.2.2]), [Lazy Evaluation][Video 2.2.3] ([slides][Slides 2.2.3]), [Infinite Sequences][Video 2.2.4] ([slides][Slides 2.2.4]), [Case Study][Video 2.2.5] ([slides][Slides 2.2.5])                   |
-| 9    | 11.11.2020  | Type-directed computation   | [Contextual abstraction][Video 2.3.1] ([slides][Slides 2.3.1]), [Using clauses and given instances][Video 2.3.2] ([slides][Slides 2.3.2]), [Type classes][Video 2.3.3] ([slides][Slides 2.3.3]), [Abstract algebra and type classes][Video 2.3.4] ([slides][Slides 2.3.4]), [Context passing][Video 2.3.5] ([slides][Slides 2.3.5]), [Implicit function types][Video 2.3.6] ([slides][Slides 2.3.6])                   |
-| 10   | 18.11.2020  | State                       |  [Functions and state][Video 2.4.1] ([slides][Slides 2.4.1]), [Identity and change][Video 2.4.2] ([slides][Slides 2.4.2]), [Loops][Video 2.4.3] ([slides][Slides 2.4.3]), [Discrete Event Simulation][Video 2.4.4] ([slides][Slides 2.4.4])                  |
+| 1    | 16.09.2020  | Intro class                 | [Introduction][Video 1.1.1], [Elements of programming][Video 1.1.2], [Evaluation strategies and termination][Video 1.1.3], [Value Definitions and Conditionals][Video 1.1.4], [Square Roots with Newtons Methods][Video 1.1.5], [Blocks and lexical scopes][Video 1.1.6], [Tail Recursion][Video 1.1.7] |
+| 2    | 23.09.2020  | Recursion / Function values | [Higher-Order Functions][Video 1.2.1], [Currying][Video 1.2.2], [Finding FixedPoints][Video 1.2.3], [Scala Syntax Summary][Video 1.2.4], [Functions and Data][Video 1.2.5], [Data Abstraction][Video 1.2.6], [Evaluation and Operators][Video 1.2.7] |
+| 3    | 30.09.2020  | Classes                     | [Class Hierarchies][Video 1.3.1], [How Classes are Organized][Video 1.3.2], [Polymorphism][Video 1.3.3], [Objects Everywhere][Video 1.3.4], [Functions as Objects][Video 1.3.5] |
+| 4    | 07.10.2020  | Classes                     | [Decomposition][Video 1.4.1], [Pattern Matching][Video 1.4.2], [Lists][Video 1.4.3], [Enums][Video 1.4.4], [Subtyping and Generics][Video 1.4.5], [Variance][Video 1.4.6]                   |
+| 5    | 14.10.2020  | List                        | [A closer look at lists][Video 1.5.1], [Tuples and generic methods][Video 1.5.2], [Higher order list functions][Video 1.5.3], [Reduction of lists][Video 1.5.4], [Reasoning about lists][Video 1.5.5]                   |
+| 6    | 21.10.2020  | Collection                  | [Other Collections][Video 1.6.1], [Combinatorial Search and For-Expressions][Video 1.6.2], [Combinatorial Search Example][Video 1.6.3], [Maps][Video 1.6.4], [Putting the Pieces Together][Video 1.6.5] |
+| 7    | 28.10.2020  | Monads                      | [Recap][Video 2.1.1], [Queries with for][Video 2.1.2], [Translation of for][Video 2.1.3], [Functional Random Generators][Video 2.1.4], [Monads][Video 2.1.5], [Exceptional Monads][Video 2.1.6]                   |
+| 8    | 04.11.2020  | Lazy evaluation             | [Structural Induction on Trees][Video 2.2.1], [Lazy Lists][Video 2.2.2], [Lazy Evaluation][Video 2.2.3], [Infinite Sequences][Video 2.2.4], [Case Study][Video 2.2.5]                   |
+| 9    | 11.11.2020  | Type-directed computation   | [Contextual abstraction][Video 2.3.1], [Using clauses and given instances][Video 2.3.2], [Type classes][Video 2.3.3], [Abstract algebra and type classes][Video 2.3.4], [Context passing][Video 2.3.5], [Implicit function types][Video 2.3.6]                   |
+| 10   | 18.11.2020  | State                       |  [Functions and state][Video 2.4.1], [Identity and change][Video 2.4.2], [Loops][Video 2.4.3], [Discrete Event Simulation][Video 2.4.4]                  |
 | 11   | 25.11.2020  | Functional Reactive Programming and Constraint Propagation / Symbolic computation |  [Observer Pattern][Video 2.5.1], [Functional Reactive Programming][Video 2.5.2], [A Simple FRP Implementation][Video 2.5.3]                  |
 | 12   | 02.12.2020  | Interpreter                 |                    |
 | 13   | 09.12.2020  | Interpreter                 |                    |
@@ -176,74 +176,3 @@ Information about exam organization will be communicated by email a few days bef
 [Video 2.5.1]: https://tube.switch.ch/videos/5ca69d05
 [Video 2.5.2]: https://tube.switch.ch/videos/700fc8b5
 [Video 2.5.3]: https://tube.switch.ch/videos/d93a3d12
-
-
-[Slides 1.1.1]: slides/progfun1-1-1.pdf
-[Slides 1.1.2]: slides/progfun1-1-2.pdf
-[Slides 1.1.3]: slides/progfun1-1-3.pdf
-[Slides 1.1.4]: slides/progfun1-1-4.pdf
-[Slides 1.1.5]: slides/progfun1-1-5.pdf
-[Slides 1.1.6]: slides/progfun1-1-6.pdf
-[Slides 1.1.7]: slides/progfun1-1-7.pdf
-
-[Slides 1.2.1]: slides/progfun1-2-1.pdf
-[Slides 1.2.2]: slides/progfun1-2-2.pdf
-[Slides 1.2.3]: slides/progfun1-2-3.pdf
-[Slides 1.2.4]: slides/progfun1-2-4.pdf
-[Slides 1.2.5]: slides/progfun1-2-5.pdf
-[Slides 1.2.6]: slides/progfun1-2-6.pdf
-[Slides 1.2.7]: slides/progfun1-2-7.pdf
-
-[Slides 1.3.1]: slides/progfun1-3-1.pdf
-[Slides 1.3.2]: slides/progfun1-3-2.pdf
-[Slides 1.3.3]: slides/progfun1-3-3.pdf
-[Slides 1.3.4]: slides/progfun1-3-4.pdf
-[Slides 1.3.5]: slides/progfun1-3-5.pdf
-
-[Slides 1.4.1]: slides/progfun1-4-1.pdf
-[Slides 1.4.2]: slides/progfun1-4-2.pdf
-[Slides 1.4.3]: slides/progfun1-4-3.pdf
-[Slides 1.4.4]: slides/progfun1-4-4.pdf
-[Slides 1.4.5]: slides/progfun1-4-5.pdf
-[Slides 1.4.6]: slides/progfun1-4-6.pdf
-
-[Slides 1.5.1]: slides/progfun1-5-1.pdf
-[Slides 1.5.2]: slides/progfun1-5-2.pdf
-[Slides 1.5.3]: slides/progfun1-5-3.pdf
-[Slides 1.5.4]: slides/progfun1-5-4.pdf
-[Slides 1.5.5]: slides/progfun1-5-5.pdf
-
-[Slides 1.6.1]: slides/progfun1-6-1.pdf
-[Slides 1.6.2]: slides/progfun1-6-2.pdf
-[Slides 1.6.3]: slides/progfun1-6-3.pdf
-[Slides 1.6.4]: slides/progfun1-6-4.pdf
-[Slides 1.6.5]: slides/progfun1-6-5.pdf
-
-[Slides 2.1.1]: slides/progfun2-1-1.pdf
-[Slides 2.1.2]: slides/progfun2-1-2.pdf
-[Slides 2.1.3]: slides/progfun2-1-3.pdf
-[Slides 2.1.4]: slides/progfun2-1-4.pdf
-[Slides 2.1.5]: slides/progfun2-1-5.pdf
-[Slides 2.1.6]: slides/progfun2-1-6.pdf
-
-[Slides 2.2.1]: slides/progfun2-2-1.pdf
-[Slides 2.2.2]: slides/progfun2-2-2.pdf
-[Slides 2.2.3]: slides/progfun2-2-3.pdf
-[Slides 2.2.4]: slides/progfun2-2-4.pdf
-[Slides 2.2.5]: slides/progfun2-2-5.pdf
-
-[Slides 2.3.1]: slides/progfun2-3-1.pdf
-[Slides 2.3.2]: slides/progfun2-3-2.pdf
-[Slides 2.3.3]: slides/progfun2-3-3.pdf
-[Slides 2.3.4]: slides/progfun2-3-4.pdf
-[Slides 2.3.5]: slides/progfun2-3-5.pdf
-[Slides 2.3.6]: slides/progfun2-3-6.pdf
-
-[Slides 2.4.1]: slides/progfun2-4-1.pdf
-[Slides 2.4.2]: slides/progfun2-4-2.pdf
-[Slides 2.4.3]: slides/progfun2-4-3.pdf
-[Slides 2.4.4]: slides/progfun2-4-4.pdf
-
-[Slides 2.5.1]: slides/progfun2-5-1.pdf
-[Slides 2.5.2]: slides/progfun2-5-2.pdf
-[Slides 2.5.3]: slides/progfun2-5-3.pdf
