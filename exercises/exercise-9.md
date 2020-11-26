@@ -20,7 +20,7 @@ We also provide a few valid primitive operations that you may use
 ```scala
 def minus(e1: Expr, e2: Expr) = BinOp(Minus, e1, e2)
 def plus(e1: Expr, e2: Expr) = BinOp(Plus, e1, e2)
-def leq(e1: Expr, e2: Expr) = BinOp(LessEq, e1, e2) // 0 if less or equal; 1 otherwise
+def leq(e1: Expr, e2: Expr) = BinOp(LessEq, e1, e2) // 1 if e1 <= e2; 0 otherwise
 def times(e1: Expr, e2: Expr) = BinOp(Times, e1, e2)
 def modulo(e1: Expr, e2: Expr) = BinOp(Modulo, e1, e2)
 ```
