@@ -59,7 +59,7 @@ repository and run `code . ` inside as usual: [`git clone https://gitlab.epfl.ch
 | 9    | 11.11.2020  | Type-directed computation   | [Contextual abstraction][Video 2.3.1], [Using clauses and given instances][Video 2.3.2], [Type classes][Video 2.3.3], [Abstract algebra and type classes][Video 2.3.4], [Context passing][Video 2.3.5], [Implicit function types][Video 2.3.6]                   |
 | 10   | 18.11.2020  | State                       |  [Functions and state][Video 2.4.1], [Identity and change][Video 2.4.2], [Loops][Video 2.4.3], [Discrete Event Simulation][Video 2.4.4]                  |
 | 11   | 25.11.2020  | Functional Reactive Programming and Constraint Propagation / Symbolic computation |  [Observer Pattern][Video 2.5.1], [Functional Reactive Programming][Video 2.5.2], [A Simple FRP Implementation][Video 2.5.3]                  |
-| 12   | 02.12.2020  | Interpreter I                | [Interpreter for Arithmetic][Video 3.1.1], [Substitution Interpreter for Recursive Functions][Video 3.1.2], [Environment Instead of Substitutions][Video 3.1.3]   |
+| 12   | 02.12.2020  | Interpreter I                | [Interpreter for Arithmetic][Video 3.1.1], [Substitution Interpreter for Recursive Functions][Video 3.1.2], [Environment Instead of Substitutions][Video 3.1.3], [Higher-Order Functions Using Naive Substitutions][Video 3.1.4], [Avoiding Variable Capture][Video 3.1.5]   |
 | 13   | 09.12.2020  | Interpreter II               |                    |
 | 14   | 16.12.2020  | Review for the exam         |                    |
 
@@ -179,3 +179,5 @@ Information about exam organization will be communicated by email a few days bef
 [Video 3.1.1]: https://tube.switch.ch/videos/b053ad9d
 [Video 3.1.2]: https://tube.switch.ch/videos/59b7ae00
 [Video 3.1.3]: https://tube.switch.ch/videos/0ccb68d7
+[Video 3.1.4]: https://tube.switch.ch/videos/0de70fa1
+[Video 3.1.5]: https://tube.switch.ch/videos/94bc1565
