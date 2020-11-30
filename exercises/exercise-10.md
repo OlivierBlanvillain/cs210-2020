@@ -1,5 +1,7 @@
 # Exercise Session 10
 
+In these exercises, you are asked to write higher-order functions in the very simple untyped language that the interpreter we developed supports.
+
 ## Question 1
 
 In this exercise, you will be working with _Church numerals_.
