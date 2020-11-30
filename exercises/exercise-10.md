@@ -1,6 +1,6 @@
 # Exercise Session 10
 
-In these exercises, you are asked to write higher-order functions in the very simple untyped language that the interpreter we developed supports.
+In these exercises, you are asked to write higher-order functions in the simple untyped language supported by the interpreter for recursive higher-order functions that we developed in the lectures.
 
 ## Question 1
 
@@ -54,4 +54,8 @@ Give an implementation of the `size` function that takes a Church-encoded list a
 
 ## Question 4
 
-Give an implementation of the `map` function which takes a Church-encoded list and a function and returns the list mapped with the function (in the sense of `List.map`).
+Give an implementation of the `map` function which takes a Church-encoded list and a function and returns the list mapped with the function (in the sense of `List.map`). You may use recursion in your definitions.
+
+## Question 5
+
+Give an implementation of the `foldRight` function which takes a Church-encoded list and a function and returns the result of `foldRight`. You may use recursion in your definitions.
