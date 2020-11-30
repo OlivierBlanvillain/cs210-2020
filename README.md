@@ -93,7 +93,7 @@ Labs are submitted by pushing your code on GitLab, see details in the [grading a
 | Exercise Session 6                             | 26.10.2020       | 28.10.2020      | 01.11.2020       | 02.11.2020       |
 | Exercise Session 7                             | 09.11.2020       | 11.11.2020      | 15.11.2020       | 16.11.2020       |
 | Exercise Session 8                             | 16.11.2020       | 18.11.2020      | 22.11.2020       | 23.11.2020       |
-| Exercise Session 9                             | 23.11.2020       | 25.11.2020      | **30.11.2020** (updated after late videos)       | 01.12.2020       |
+| Exercise Session 9                             | 23.11.2020       | 25.11.2020 & 2.12.2020     | **06.12.2020** (updated after late videos)       | 07.12.2020       |
 | Exercise Session 10                            | 30.11.2020       | 2.12.2020 & 09.12.2020      | 13.12.2020       | 14.12.2020       |
 
 Exercises are pen and paper style questions that will prepare you for the final exam.
