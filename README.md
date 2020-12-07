@@ -60,7 +60,7 @@ repository and run `code . ` inside as usual: [`git clone https://gitlab.epfl.ch
 | 10   | 18.11.2020  | State                       |  [Functions and state][Video 2.4.1], [Identity and change][Video 2.4.2], [Loops][Video 2.4.3], [Discrete Event Simulation][Video 2.4.4]                  |
 | 11   | 25.11.2020  | Functional Reactive Programming and Constraint Propagation / Symbolic computation |  [Observer Pattern][Video 2.5.1], [Functional Reactive Programming][Video 2.5.2], [A Simple FRP Implementation][Video 2.5.3]                  |
 | 12   | 02.12.2020  | Interpreter I                | [Interpreter for Arithmetic][Video 3.1.1], [Substitution Interpreter for Recursive Functions][Video 3.1.2], [Environment Instead of Substitutions][Video 3.1.3], [Higher-Order Functions Using Naive Substitutions][Video 3.1.4], [Avoiding Variable Capture][Video 3.1.5], [Higher-Order Functions Using Environments][Video 3.1.6], [Nested Recursive Definitions][Video 3.1.7]   |
-| 13   | 09.12.2020  | Parsing. Lambda Calculus  |                    |
+| 13   | 09.12.2020  | Parsing with Combinators. Lambda Calculus  | [Parsing with Combinators][Video 3.2.1] |
 | 14   | 16.12.2020  | Review for the exam         |                    |
 
 ## Lab Schedule
@@ -183,3 +183,4 @@ Information about exam organization will be communicated by email a few days bef
 [Video 3.1.5]: https://tube.switch.ch/videos/94bc1565
 [Video 3.1.6]: https://tube.switch.ch/videos/6d332501
 [Video 3.1.7]: https://tube.switch.ch/videos/18ba7117
+[Video 3.2.1]: https://tube.switch.ch/videos/d08dd17f
