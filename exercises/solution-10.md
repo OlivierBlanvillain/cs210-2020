@@ -3,7 +3,7 @@
 ## Question 1
 
 ```scala
-def succ = (n => f => x => f(n(f))(x))
+def succ = (n => f => x => f(n(f)(x)))
 ```
 
 ## Question 2
