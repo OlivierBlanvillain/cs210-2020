@@ -48,6 +48,19 @@ You are allowed to push multiple times for the same question (only the last comm
 
 Refer to labs submission instructions for detailed information on how to run the tests: https://gitlab.epfl.ch/lamp/cs210/-/blob/master/labs/grading-and-submission.md#local-tests-and-grading
 
+## Recommended workflow summary
+
+After you have obtained a question, do the following:
+
+1. read the requirements carefully
+2. write the solution taking the requirements into account
+3. make sure your solution compiles
+4. make sure your solution passes the local tests on your machine; if it does not, repeat previous steps
+5. submit your solution using git; if it does not pass the tests, repeat the previous steps
+6. if your solution is accepted as correct by CI, request the next question
+
+If you feel you are spending more time on the question and will likely not solve it, then go to step 6 even if your solution is not accepted to get a chance at solving subsequent question. Note that you will be losing 2 points when you do not solve a question, so take this into account.
+
 ## How do we grade the exam
 
 Each question you solve correctly gives you 10 points. A question is solved correctly if it passes all the tests including those we made available to you (a maximum grade of 10/10), and the solution fulfills all the requirements listed in the problem statement (such as not using vars). If you do not manage to solve a particular question, you can move on to the next one by submitting your partial solution or even an empty commit. Those incorrect solutions are penalized with -2 points. Given the exam format, those points will then be converted to traditional grades depending on the overall exam performance. Our aim is that a student who mastered the material can solve approximately 5 questions in this time period and obtain a maximum grade, taking into account small variations in question difficulty. This estimate is provided only to help your time planning.
