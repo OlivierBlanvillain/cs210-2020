@@ -9,14 +9,34 @@ workflow:
     - if: $CI_COMMIT_MESSAGE !~ /\[no-ci\]/
 
 stages:
+  - next-question
   - build
   - grade
+
+next-question:
+  stage: next-question
+  image: lampepfl/moocs:cs210-2020-dryrun
+  tags:
+    - cs210
+  except:
+    - tags
+    - master
+  script:
+    - /next-exercise
 
 compile:
   stage: build
   image: lampepfl/dotty:2020-09-08
   tags:
-    - cs210
+    - cs210_07
+    - cs210_08
+    - cs210_09
+    - cs210_10
+    - cs210_11
+    - cs210_12
+    - cs210_13
+    - cs210_14
+    - cs210_15
   except:
     - tags
     - master
@@ -46,7 +66,15 @@ grade:
     - tags
     - master
   tags:
-    - cs210
+    - cs210_07
+    - cs210_08
+    - cs210_09
+    - cs210_10
+    - cs210_11
+    - cs210_12
+    - cs210_13
+    - cs210_14
+    - cs210_15
   image:
     # If we push a new image with the same name, we may have to clear the image
     # caches on the runner machines
